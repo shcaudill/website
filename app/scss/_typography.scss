@@ -1,0 +1,16 @@
+.navbar-brand, .font-serif {
+  font-family: $font-family-serif;
+}
+.font-sans-serif {
+  font-family: $font-family-sans-serif;
+}
+.ampersand{
+  margin-left: -32px;
+}
+.display-1, .display-2, .display-3, .display-4, .display-5 {
+  font-family: $font-family-serif;
+  color: $gray-500;
+}
+h2{
+  font-weight: $font-weight-light;
+}
