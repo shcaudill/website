@@ -1,13 +1,17 @@
 ### Summary
 ***
 
-Welcome to the design and development portfolio of Sean Caudill. Visit the (old) site at [seancaudill.com](https://seancaudill.com) or follow my progress at this [GitHub repository](https://github.com/shcaudill/website).
+Welcome to the design and development portfolio of Sean Caudill. Visit the (old) site at [seancaudill.com](https://seancaudill.com).
 
 I'm developing my site using [Bootstrap](https://getbootstrap.com/). To test it out yourself just run `$ gulp` in the project's root directory:
 
 &nbsp;
 
 ### Updates
+
+***
+
+11/9/21: New colors, hero & feature section layout, some mobile.
 
 ***
 
