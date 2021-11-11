@@ -11,6 +11,10 @@ I'm developing my site using [Bootstrap](https://getbootstrap.com/). To test it 
 
 ***
 
+11/10/21: Responsive hero and feature, working on the offcanvas mobile menu.
+
+***
+
 11/9/21: New colors, hero & feature section layout, some mobile.
 
 ***
@@ -31,4 +35,4 @@ I'm developing my site using [Bootstrap](https://getbootstrap.com/). To test it 
 
 ***
 
-5/21: Built a bunch of stuff, broke it, burned it and started anew. Feels good to be back.
+5/21/21: Built a bunch of stuff, broke it, burned it and started anew. Feels good to be back.

@@ -157,8 +157,8 @@ $font-size-lg:     $font-size-base * 1.25 !default;
 
 $font-weight-lighter:   lighter !default;
 $font-weight-light:     300 !default;
-$font-weight-normal:    400 !default;
-$font-weight-bold:      700 !default;
+$font-weight-normal:    300;
+$font-weight-bold:      600;
 $font-weight-bolder:    bolder !default;
 
 $font-weight-base: $font-weight-normal !default;
@@ -343,4 +343,3 @@ $navbar-light-brand-color:                $navbar-light-active-color !default;
 $navbar-light-brand-hover-color:          $navbar-light-active-color !default;
 $navbar-dark-brand-color:                 $navbar-dark-active-color !default;
 $navbar-dark-brand-hover-color:           $navbar-dark-active-color !default;
-
