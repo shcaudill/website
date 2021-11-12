@@ -11,6 +11,10 @@ I'm developing my site using [Bootstrap](https://getbootstrap.com/). To test it 
 
 ***
 
+11/11/21: Added contact info, navbar fixes, prep for first publish.
+
+***
+
 11/10/21: Responsive hero and feature, working on the offcanvas mobile menu.
 
 ***

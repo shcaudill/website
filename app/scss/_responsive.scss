@@ -6,13 +6,23 @@
 	.ampersand{
 		margin-left: -40px;
 	 }
+	.navbar{
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	.navbar-brand{
+		margin-left: .5rem;
+	}
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 	.ampersand{
 		margin-left: -46px;
-	 }
+	}
+	.navbar-brand{
+		margin-left: .5rem;
+	}
 }
 
 // X-Large devices (large desktops, 1200px and up)

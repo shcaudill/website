@@ -17,3 +17,7 @@ h2{
 .lead{
   margin: 1.5rem 0;
 }
+a.text-light:hover{
+  color: $blue !important;
+  fill: $blue !important;
+}
