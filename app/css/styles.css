@@ -4,7 +4,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&display=swap");
 :root {
   --bs-blue: #1298b2;
@@ -28,7 +28,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f2f4f5;
   --bs-dark: #212729;
-  --bs-font-sans-serif: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "Roboto Condensed", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0)); }
 
@@ -3230,7 +3230,7 @@ textarea.form-control-lg {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 0 solid rgba(0, 0, 0, 0.125);
   border-radius: 0rem; }
   .card > hr {
     margin-right: 0;
@@ -3240,19 +3240,19 @@ textarea.form-control-lg {
     border-bottom: inherit; }
     .card > .list-group:first-child {
       border-top-width: 0;
-      border-top-left-radius: calc(0rem - 1px);
-      border-top-right-radius: calc(0rem - 1px); }
+      border-top-left-radius: subtract(0rem, 0);
+      border-top-right-radius: subtract(0rem, 0); }
     .card > .list-group:last-child {
       border-bottom-width: 0;
-      border-bottom-right-radius: calc(0rem - 1px);
-      border-bottom-left-radius: calc(0rem - 1px); }
+      border-bottom-right-radius: subtract(0rem, 0);
+      border-bottom-left-radius: subtract(0rem, 0); }
   .card > .card-header + .list-group,
   .card > .list-group + .card-footer {
     border-top: 0; }
 
 .card-body {
   flex: 1 1 auto;
-  padding: 1rem 1rem; }
+  padding: 2rem 1rem; }
 
 .card-title {
   margin-bottom: 0.5rem; }
@@ -3271,23 +3271,23 @@ textarea.form-control-lg {
   margin-left: 1rem; }
 
 .card-header {
-  padding: 0.5rem 1rem;
+  padding: 0 1rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
+  background-color: #fff;
+  border-bottom: 0 solid rgba(0, 0, 0, 0.125); }
   .card-header:first-child {
-    border-radius: calc(0rem - 1px) calc(0rem - 1px) 0 0; }
+    border-radius: subtract(0rem, 0) subtract(0rem, 0) 0 0; }
 
 .card-footer {
-  padding: 0.5rem 1rem;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125); }
+  padding: 0 1rem;
+  background-color: #fff;
+  border-top: 0 solid rgba(0, 0, 0, 0.125); }
   .card-footer:last-child {
-    border-radius: 0 0 calc(0rem - 1px) calc(0rem - 1px); }
+    border-radius: 0 0 subtract(0rem, 0) subtract(0rem, 0); }
 
 .card-header-tabs {
   margin-right: -0.5rem;
-  margin-bottom: -0.5rem;
+  margin-bottom: 0;
   margin-left: -0.5rem;
   border-bottom: 0; }
 
@@ -3302,7 +3302,7 @@ textarea.form-control-lg {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  border-radius: calc(0rem - 1px); }
+  border-radius: subtract(0rem, 0); }
 
 .card-img,
 .card-img-top,
@@ -3311,13 +3311,13 @@ textarea.form-control-lg {
 
 .card-img,
 .card-img-top {
-  border-top-left-radius: calc(0rem - 1px);
-  border-top-right-radius: calc(0rem - 1px); }
+  border-top-left-radius: subtract(0rem, 0);
+  border-top-right-radius: subtract(0rem, 0); }
 
 .card-img,
 .card-img-bottom {
-  border-bottom-right-radius: calc(0rem - 1px);
-  border-bottom-left-radius: calc(0rem - 1px); }
+  border-bottom-right-radius: subtract(0rem, 0);
+  border-bottom-left-radius: subtract(0rem, 0); }
 
 .card-group > .card {
   margin-bottom: 0.75rem; }
@@ -8047,7 +8047,7 @@ body {
   width: 5rem; }
 
 .bg-headshot {
-  background: #fff url("../images/sean-caudill-headshot.jpg") center/contain no-repeat;
+  background: #fff url("../images/sean-caudill-headshot-website.jpg") center/contain no-repeat;
   min-height: 300px; }
 
 .bg-topo {
@@ -8123,7 +8123,7 @@ body {
   font-family: "Roboto Slab", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
 .font-sans-serif {
-  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  font-family: "Roboto Condensed", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
 .ampersand {
   color: #add2d9; }
@@ -8132,7 +8132,7 @@ body {
   color: #495457; }
 
 h2, .h2 {
-  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Roboto Condensed", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 300; }
 
 .lead {

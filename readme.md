@@ -11,6 +11,10 @@ I'm developing my site using [Bootstrap](https://getbootstrap.com/). To test it 
 
 ***
 
+12/2/21: Portfolio prep.
+
+***
+
 11/11/21: Added contact info, navbar fixes, prep for first publish.
 
 ***
