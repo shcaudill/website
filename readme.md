@@ -11,7 +11,11 @@ I'm developing my site using [Bootstrap](https://getbootstrap.com/). To test it 
 
 ***
 
-12/2/21: Portfolio prep.
+12/6/21: Homepage card updates, portfolio page foundation. A lot of fixing to be done...
+
+***
+
+12/2/21: Portfolio.
 
 ***
 

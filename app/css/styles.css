@@ -168,7 +168,7 @@ a {
   color: #0f7c91;
   text-decoration: none; }
   a:hover {
-    color: shift-color(#0f7c91, 20%); }
+    color: shift-color(#0f7c91, 50%); }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
@@ -2523,7 +2523,7 @@ textarea.form-control-lg {
   color: #0f7c91;
   text-decoration: none; }
   .btn-link:hover {
-    color: shift-color(#0f7c91, 20%); }
+    color: shift-color(#0f7c91, 50%); }
   .btn-link:disabled, .btn-link.disabled {
     color: #6d7a7d; }
 
@@ -2911,7 +2911,7 @@ textarea.form-control-lg {
     .nav-link {
       transition: none; } }
   .nav-link:hover, .nav-link:focus {
-    color: shift-color(#0f7c91, 20%); }
+    color: shift-color(#0f7c91, 50%); }
   .nav-link.disabled {
     color: #6d7a7d;
     pointer-events: none;
@@ -3472,12 +3472,12 @@ textarea.form-control-lg {
       transition: none; } }
   .page-link:hover {
     z-index: 2;
-    color: shift-color(#0f7c91, 20%);
+    color: shift-color(#0f7c91, 50%);
     background-color: #e8eced;
     border-color: #dfe4e5; }
   .page-link:focus {
     z-index: 3;
-    color: shift-color(#0f7c91, 20%);
+    color: shift-color(#0f7c91, 50%);
     background-color: #e8eced;
     outline: 0;
     box-shadow: 0 0 0 0.25rem rgba(18, 152, 178, 0.25); }
@@ -4708,42 +4708,42 @@ textarea.form-control-lg {
 .link-primary {
   color: #1298b2; }
   .link-primary:hover, .link-primary:focus {
-    color: #41adc1; }
+    color: #89ccd9; }
 
 .link-secondary {
   color: #6d7a7d; }
   .link-secondary:hover, .link-secondary:focus {
-    color: #8a9597; }
+    color: #b6bdbe; }
 
 .link-success {
   color: #198754; }
   .link-success:hover, .link-success:focus {
-    color: #146c43; }
+    color: #0d442a; }
 
 .link-info {
   color: #0dcaf0; }
   .link-info:hover, .link-info:focus {
-    color: #3dd5f3; }
+    color: #86e5f8; }
 
 .link-warning {
   color: #ffc107; }
   .link-warning:hover, .link-warning:focus {
-    color: #ffcd39; }
+    color: #ffe083; }
 
 .link-danger {
   color: #dc3545; }
   .link-danger:hover, .link-danger:focus {
-    color: #b02a37; }
+    color: #6e1b23; }
 
 .link-light {
   color: #f2f4f5; }
   .link-light:hover, .link-light:focus {
-    color: #f5f6f7; }
+    color: #f9fafa; }
 
 .link-dark {
   color: #212729; }
   .link-dark:hover, .link-dark:focus {
-    color: #1a1f21; }
+    color: #111415; }
 
 .ratio {
   position: relative;
@@ -8032,6 +8032,31 @@ textarea.form-control-lg {
 .btn {
   min-width: 9rem; }
 
+.card a:hover {
+  color: #0c6374; }
+
+.card, .card-img-wrap {
+  overflow: hidden;
+  position: relative; }
+
+.card:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.card img {
+  transition: transform .25s;
+  width: 100%; }
+
+.card:hover img {
+  transform: scale(1.05); }
+
+.card:hover:after {
+  opacity: 1; }
+
 html,
 body {
   overflow-x: hidden;
@@ -8052,6 +8077,13 @@ body {
 
 .bg-topo {
   background: #fff url("../images/bg-topo.svg") left top/500px repeat; }
+
+.bg-enrollment-mobile {
+  background: #fff url("../images/hero-enrollment-redesign.jpg") right/cover no-repeat;
+  min-height: 320px; }
+
+.bg-enrollment {
+  background: #fff url("../images/hero-enrollment-redesign.jpg") center/cover no-repeat; }
 
 .bd-placeholder-img {
   font-size: 1.125rem;

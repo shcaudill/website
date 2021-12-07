@@ -1,3 +1,25 @@
 .btn{
     min-width: 9rem;
 }
+.card a:hover {
+    color: shift-color(#0f7c91, 20%);
+}
+.card, .card-img-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.card:after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+}
+.card img {
+  transition: transform .25s;
+  width: 100%;
+}
+.card:hover img {
+  transform: scale(1.05);
+}
+.card:hover:after {
+  opacity: 1;
+}
