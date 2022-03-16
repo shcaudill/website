@@ -3228,7 +3228,7 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: auto;
   background-clip: border-box;
   border: 0 solid rgba(0, 0, 0, 0.125);
   border-radius: 0rem; }
@@ -3290,6 +3290,9 @@ textarea.form-control-lg {
   margin-bottom: 0;
   margin-left: 0;
   border-bottom: 0; }
+  .card-header-tabs .nav-link.active {
+    background-color: auto;
+    border-bottom-color: auto; }
 
 .card-header-pills {
   margin-right: 0;
@@ -8056,6 +8059,9 @@ textarea.form-control-lg {
 
 .card:hover:after {
   opacity: 1; }
+
+.card-body {
+  padding-right: 1rem; }
 
 html,
 body {
