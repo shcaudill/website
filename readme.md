@@ -1,13 +1,25 @@
 ### Summary
 ***
 
-Welcome to the design and development portfolio of Sean Caudill. Visit the (old) site at [seancaudill.com](https://seancaudill.com).
+Welcome to the design and development portfolio of Sean Caudill. Visit here: [seancaudill.com](https://seancaudill.com).
 
 I'm developing my site using [Bootstrap](https://getbootstrap.com/). To test it out yourself just run `$ gulp` in the project's root directory:
 
 &nbsp;
 
 ### Updates
+
+***
+
+3/15/22: Adding homepage sections and updating navigation.
+
+***
+
+3/7/22: Updated job title, getting back into the groove.
+
+***
+
+12/6/21: Fixing html and modifying spacers.
 
 ***
 

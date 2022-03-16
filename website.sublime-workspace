@@ -98,17 +98,17 @@
 	],
 	"file_history":
 	[
-		"/Users/seancaudill/code/website/node_modules/bootstrap/scss/_variables.scss",
 		"/Users/seancaudill/code/website/app/scss/_variables.scss",
+		"/Users/seancaudill/code/website/readme.md",
+		"/Users/seancaudill/code/website/app/index.html",
+		"/Users/seancaudill/code/website/node_modules/bootstrap/scss/_variables.scss",
 		"/Users/seancaudill/code/website/app/scss/_components.scss",
 		"/Users/seancaudill/code/website/gulpfile.js",
 		"/Users/seancaudill/code/website/app/scss/_responsive.scss",
 		"/Users/seancaudill/code/website/app/scss/_images.scss",
 		"/Users/seancaudill/code/website/app/my-work/index.html",
-		"/Users/seancaudill/code/website/app/index.html",
 		"/Users/seancaudill/code/website/app/my-work/enrollment-redesign/index.html",
 		"/Users/seancaudill/code/website/app/my-work/design-system/index.html",
-		"/Users/seancaudill/code/website/readme.md",
 		"/Users/seancaudill/code/website/app/scss/styles.scss",
 		"/Users/seancaudill/code/website/app/scss/_navbar.scss",
 		"/Users/seancaudill/code/website/app/scss/_typography.scss",
@@ -134,7 +134,7 @@
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{

@@ -9,8 +9,8 @@ $spacers: (
   1: $spacer / 4,
   2: $spacer / 2,
   3: $spacer,
-  4: $spacer * 1.5,
-  5: $spacer * 3,
+  4: $spacer * 2,
+  5: $spacer * 6,
 ) !default;
 
 // Color system
@@ -41,8 +41,32 @@ $grays: (
   "900": $gray-900
 ) !default;
 
+// blue-color-variables
+$blue:     #1298b2;
+$blue-100: #f2fafc;
+$blue-200: #cfe2e5;
+$blue-300: #add2d9;
+$blue-400: #7abecc;
+$blue-500: $blue;
+$blue-600: #0f7c91;
+$blue-700: #0b6273;
+$blue-800: #063038;
+$blue-900: #031619;
+
+// blues-colors-map
+$blues: (
+  "100": $blue-100,
+  "200": $blue-200,
+  "300": $blue-300,
+  "400": $blue-400,
+  "500": $blue-500,
+  "600": $blue-600,
+  "700": $blue-700,
+  "800": $blue-800,
+  "900": $blue-900
+) !default;
+
 // color-variables
-$blue:    #1298b2;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #d63384 !default;
@@ -78,7 +102,7 @@ $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         $gray-100;
+$light:         $blue-100;
 $dark:          $gray-900 !default;
 
 // theme-colors-map
@@ -93,16 +117,6 @@ $theme-colors: (
   "dark":       $dark
 ) !default;
 
-// blue-color-variables
-$blue-100: #e6f0f2;
-$blue-200: #cfe2e5;
-$blue-300: #add2d9;
-$blue-400: #7abecc;
-$blue-500: $blue !default;
-$blue-600: #0f7c91;
-$blue-700: #0b6273;
-$blue-800: #063038;
-$blue-900: #031619;
 
 // Body
 
@@ -323,7 +337,7 @@ $gutters: $spacers !default;
 // Cards
 
 $card-spacer-y:                     $spacer * 2;
-$card-spacer-x:                     $spacer;
+$card-spacer-x:                     0;
 $card-title-spacer-y:               $spacer / 2 !default;
 $card-border-width:                 0;
 $card-border-radius:                $border-radius !default;
