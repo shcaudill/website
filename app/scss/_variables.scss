@@ -10,22 +10,23 @@ $spacers: (
   2: $spacer / 2,
   3: $spacer,
   4: $spacer * 2,
-  5: $spacer * 6,
+  5: $spacer * 3,
+  6: $spacer * 6,
 ) !default;
 
 // Color system
 
 // gray-color-variables
 $white:    #fff !default;
-$gray-100: #f2f4f5;
-$gray-200: #e8eced;
-$gray-300: #dfe4e5;
-$gray-400: #ced7d9;
-$gray-500: #aebabd;
-$gray-600: #6d7a7d;
-$gray-700: #495457;
-$gray-800: #343e40;
-$gray-900: #212729;
+$gray-100: #F3F4F4;
+$gray-200: #E4E7E7;
+$gray-300: #C9CFCF;
+$gray-400: #949E9E;
+$gray-500: #616B6B;
+$gray-600: #495050;
+$gray-700: #383E3E;
+$gray-800: #242828;
+$gray-900: #181B1B;
 $black:    #000 !default;
 
 // gray-colors-map
@@ -42,16 +43,16 @@ $grays: (
 ) !default;
 
 // blue-color-variables
-$blue:     #1298b2;
-$blue-100: #f2fafc;
-$blue-200: #cfe2e5;
-$blue-300: #add2d9;
-$blue-400: #7abecc;
+$blue: #149CB8;
+$blue-100: #E8F9FC;
+$blue-200: #D1F3FA;
+$blue-300: #A3E8F5;
+$blue-400: #47CFEB;
 $blue-500: $blue;
-$blue-600: #0f7c91;
-$blue-700: #0b6273;
-$blue-800: #063038;
-$blue-900: #031619;
+$blue-600: #0F768A;
+$blue-700: #0C5A6A;
+$blue-800: #083B45;
+$blue-900: #05272E;
 
 // blues-colors-map
 $blues: (
@@ -70,12 +71,12 @@ $blues: (
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #d63384 !default;
-$red:     #dc3545 !default;
+$red:     #DA0B2E;
 $orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
-$green:   #198754 !default;
+$yellow:  #F2B90D;
+$green:   #12A159;
 $teal:    #20c997 !default;
-$cyan:    #0dcaf0 !default;
+$cyan:    #1AC4E5;
 
 // colors-map
 $colors: (
@@ -90,20 +91,24 @@ $colors: (
   "teal":       $teal,
   "cyan":       $cyan,
   "white":      $white,
-  "gray":       $gray-600,
+  "gray-light": $gray-200,
+  "gray":       $gray-500,
   "gray-dark":  $gray-800
 ) !default;
 // colors-map
 
 // theme-color-variables
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
+$primary:       $gray-800;
+$secondary:     $blue;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         $blue-100;
-$dark:          $gray-900 !default;
+$light:         $gray-100;
+$grayLight:     $gray-200;
+$gray:          $gray-500;
+$grayDark:      $gray-800;
+$dark:          $gray-900;
 
 // theme-colors-map
 $theme-colors: (
@@ -114,8 +119,12 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
+  "grayLight":  $grayLight,
+  "gray":       $gray,
+  "grayDark":   $grayDark,
   "dark":       $dark
 ) !default;
+
 
 
 // Body
@@ -158,7 +167,7 @@ $component-active-bg:         $primary !default;
 $link-color:                              $blue-600;
 $link-decoration:                         none;
 $link-shade-percentage:                   50%;
-$link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
+$link-hover-color:                        $blue-800;
 $link-hover-decoration:                   null !default;
 
 $stretched-link-pseudo-element:           after !default;
@@ -330,7 +339,7 @@ $nav-pills-link-active-bg:          $component-active-bg !default;
 // Grid columns
 
 $grid-columns:                12 !default;
-$grid-gutter-width:           1.5rem !default;
+$grid-gutter-width:           2rem !default;
 $grid-row-columns:            6 !default;
 $gutters: $spacers !default;
 
@@ -358,7 +367,7 @@ $card-group-margin:                 $grid-gutter-width / 2 !default;
 // navbar-variables
 $navbar-padding-y:                  $spacer;
 $navbar-padding-x:                  $spacer / 2;
-$navbar-nav-link-padding-x:         .5rem !default;
+$navbar-nav-link-padding-x:         .75rem;
 $navbar-brand-font-size:            $font-size-lg !default;
 // compute the navbar-brand padding-y so the navbar-brand will have the same height as navbar-text and nav-link
 $nav-link-height:                   $font-size-base * $line-height-base + $nav-link-padding-y * 2 !default;
@@ -381,14 +390,14 @@ $navbar-dark-disabled-color:        rgba($white, .25) !default;
 $navbar-dark-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !default;
 $navbar-dark-toggler-border-color:  rgba($white, .1) !default;
 
-$navbar-light-color:                $link-color;
-$navbar-light-hover-color:          rgba($black, .7) !default;
-$navbar-light-active-color:         rgba($black, .9) !default;
-$navbar-light-disabled-color:       rgba($black, .3) !default;
+$navbar-light-color:                $primary;
+$navbar-light-hover-color:          $blue-600;
+$navbar-light-active-color:         $blue-700;
+$navbar-light-disabled-color:       $blue-200;
 $navbar-light-toggler-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-light-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !default;
 $navbar-light-toggler-border-color: rgba($black, .1) !default;
 
-$navbar-light-brand-color:                $navbar-light-active-color !default;
-$navbar-light-brand-hover-color:          $navbar-light-active-color !default;
+$navbar-light-brand-color:                $navbar-light-color;
+$navbar-light-brand-hover-color:          $link-hover-color;
 $navbar-dark-brand-color:                 $navbar-dark-active-color !default;
 $navbar-dark-brand-hover-color:           $navbar-dark-active-color !default;

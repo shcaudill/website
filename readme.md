@@ -11,6 +11,10 @@ I'm developing my site using [Bootstrap](https://getbootstrap.com/). To test it 
 
 ***
 
+3/28/22: Back from vacation! Updated colors, fixed hero, work on the experience section.
+
+***
+
 3/15/22: Adding homepage sections and updating navigation.
 
 ***

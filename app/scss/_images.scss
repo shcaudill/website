@@ -1,9 +1,7 @@
-.bg-headshot{
-  background: #fff url("../images/sean-caudill-headshot-website.jpg") center/contain no-repeat;
-  min-height: 300px;
-}
-.bg-topo {
-  background: #fff url("../images/bg-topo.svg") left top/500px repeat;
+//bg-topo-md is in responsive.scss
+.bg-topo-xs{
+  background: url("../images/bg-topo-01.svg") no-repeat;
+
 }
 .bg-enrollment-mobile {
   background: #fff url("../images/hero-enrollment-redesign.jpg") right/cover no-repeat;
