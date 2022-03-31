@@ -5,7 +5,7 @@
   font-family: $font-family-sans-serif;
 }
 .ampersand{
-  color: $blue-300;
+  color: $blueLight;
   margin-left: -10px;
 }
 .display-1, .display-2, .display-3, .display-4, .display-5 {
@@ -21,4 +21,7 @@ h2, h4{
 a.text-light:hover{
   color: $blue !important;
   fill: $blue !important;
+}
+.card-body>a{
+  text-decoration: none;
 }

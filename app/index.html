@@ -26,15 +26,17 @@
             <a class="nav-link" href="/experience">Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/my-work">My Work</a>
+            <a class="nav-link" href="/about-me">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/about-me">About Me</a>
+            <a class="nav-link" href="/my-work" data-bs-toggle="modal" data-bs-target="#exampleModal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill mb-1 text-gray" viewBox="0 0 16 16">
+                <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
+              </svg> My Work</a>
           </li>
         </ul>
         <div class="d-lg-none text-center">
-          <div class="mx-auto my-5 divider"></div>
-          <a href="mailto: shcaudill@gmail.com" target="_blank" class="text-white me-4">
+          <div class="mx-auto my-5 dividerLight"></div>
+          <a href="mailto: shcaudill@gmail.com" target="_blank" class="text-white me-4 text-decoration-none">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="me-2 mb-1" viewBox="0 0 24 24">
               <polygon points="19,15.1 19,9.4 14.3,12.2   " />
               <path d="M12,13.6l-1.3-0.8L5,16.3C5.2,16.7,5.5,17,6,17h12c0.5,0,0.8-0.3,1-0.7l-5.6-3.5L12,13.6z" />
@@ -42,12 +44,12 @@
               <path d="M12,0C5.4,0,0,5.4,0,12c0,6.6,5.4,12,12,12s12-5.4,12-12C24,5.4,18.6,0,12,0z M20,16c0,1.1-0.9,2-2,2H6c-1.1,0-2-0.9-2-2V8 c0-1.1,0.9-2,2-2h12c1.1,0,2,0.9,2,2V16z" />
               <path d="M18,7H6C5.4,7,5,7.4,5,8v0.2l7,4.2l7-4.2V8C19,7.4,18.6,7,18,7z" />
             </svg>Email</a>
-          <a href="https://www.linkedin.com/in/sean-caudill-85729934/" target="_blank" class="text-white me-4">
+          <a href="https://www.linkedin.com/in/sean-caudill-85729934/" target="_blank" class="text-white me-4 text-decoration-none">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="me-2 mb-1" viewBox="0 0 24 24">
               <path d="M20.9,4c-0.3-0.3-0.6-0.7-1-1C17.9,1.2,15.1,0,12,0S6.1,1.2,4,3.1c-0.3,0.3-0.7,0.6-1,1C1.2,6.1,0,8.9,0,12 c0,3.1,1.2,5.9,3.1,8c0.3,0.3,0.6,0.7,1,1c2.1,1.9,4.9,3.1,8,3.1s5.9-1.2,8-3.1c0.3-0.3,0.7-0.6,1-1c1.9-2.1,3.1-4.9,3.1-8 C24,8.9,22.8,6.1,20.9,4z M7.2,8.8L7.2,8.8c-0.9,0-1.5-0.6-1.5-1.4C5.7,6.6,6.3,6,7.2,6s1.5,0.6,1.5,1.4C8.7,8.2,8.2,8.8,7.2,8.8z M8.6,9.9v8.1H5.9V9.9H8.6z M18.3,18.1h-2.7v-4.3c0-1.1-0.4-1.8-1.4-1.8c-0.7,0-1.2,0.5-1.4,1c-0.1,0.2-0.1,0.4-0.1,0.7v4.5H10 c0,0,0-7.4,0-8.1h2.7v1.1c0.4-0.6,1-1.3,2.4-1.3c1.8,0,3.1,1.2,3.1,3.7V18.1z" />
               <path d="M12.7,11.1L12.7,11.1C12.7,11.1,12.7,11.1,12.7,11.1L12.7,11.1z" />
             </svg>LinkedIn</a>
-          <a href="https://www.instagram.com/seanwiththewin/" target="_blank" class="text-white">
+          <a href="https://www.instagram.com/seanwiththewin/" target="_blank" class="text-white text-decoration-none">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="me-2 mb-1" viewBox="0 0 24 24">
               <path d="M12,9.3c-1.5,0-2.7,1.2-2.7,2.7c0,1.5,1.2,2.7,2.7,2.7c0,0,0,0,0,0c1.5,0,2.7-1.2,2.7-2.7C14.7,10.5,13.5,9.3,12,9.3z" />
               <path d="M18.2,7.3c-0.1-0.4-0.3-0.6-0.6-0.9c-0.3-0.3-0.5-0.5-0.9-0.6c-0.3-0.1-0.7-0.2-1.5-0.3c-0.8,0-1.1,0-3.2,0h-0.7v0 c-1.5,0-1.8,0-2.5,0C8,5.5,7.6,5.7,7.3,5.8C6.9,5.9,6.6,6.1,6.4,6.4C6.1,6.6,5.9,6.9,5.8,7.3C5.7,7.6,5.5,8,5.5,8.8 c0,0.8,0,1.1,0,3.2c0,2.1,0,2.4,0,3.2c0,0.8,0.2,1.2,0.3,1.5c0.1,0.3,0.3,0.7,0.6,0.9c0.3,0.3,0.6,0.5,0.9,0.6 c0.3,0.1,0.7,0.2,1.5,0.3c0.8,0,1.1,0,3.2,0c2.1,0,2.4,0,3.2,0c0.8,0,1.2-0.2,1.5-0.3c0.4-0.1,0.6-0.3,0.9-0.6 c0.3-0.3,0.5-0.6,0.6-0.9c0.1-0.3,0.2-0.7,0.3-1.5c0-0.8,0-1.1,0-3.2s0-2.4,0-3.2C18.5,8,18.3,7.6,18.2,7.3z M12,16.1 c0,0-0.1,0-0.1,0c-2.3,0-4.1-1.9-4-4.2c0-2.3,1.9-4.1,4.2-4c2.2,0,4,1.8,4,4C16.1,14.2,14.3,16.1,12,16.1z M16.3,8.7 c-0.5,0-1-0.4-1-1s0.4-1,1-1s1,0.4,1,1S16.8,8.7,16.3,8.7z" />
@@ -60,10 +62,10 @@
   <main>
     <section class="container-fluid bg-dark bg-topo-xs bg-topo-md">
       <div class="row d-flex justify-content-center align-items-md-center">
-        <div class="col-12 my-5 p-4 col-md-6 p-md-5 pe-md-0 col-lg-6 my-lg-6 py-lg-5 ps-lg-6 pe-lg-0 col-xl-5 bg-dark text-light text-center text-md-start">
+        <div class="col-12 my-5 p-4 col-md-6 p-md-5 pe-md-0 col-lg-6 my-lg-6 py-lg-5 ps-lg-6 pe-lg-0 col-xl-5 py-xl-6 bg-dark text-light text-center text-md-start">
           <h1 class="d-md-none d-lg-block display-5 text-light">User Experience<br><span class="ampersand">&</span> Digital Marketing</h1>
           <h1 class="d-none d-md-block d-lg-none display-6 text-light">User Experience<br><span class="ampersand">&</span> Digital Marketing</h1>
-          <div class="divider mx-auto mx-md-0"></div>
+          <div class="dividerLight mx-auto mx-md-0"></div>
           <h2 class="mb-0">Sr. Manager, UX/UI<br>Certified Usability Analyst</span></h2>
         </div>
         <div class="col-12 p-0 col-md-5 col-lg-5 col-xl-5 pt-md-5 pt-lg-6 align-self-end justify-content-center">
@@ -77,22 +79,22 @@
         <div class="row d-flex justify-content-center">
           <div class="col">
             <h3>Hello!</h3>
-            <div class="divider"></div>
-            <p class="lead mb-4">I am a certified usability analyst and the Sr. Manager of UX/UI at Plexus Worldwide. As a UX leader, I advocate for user-centered design, accessibility, customer experience, and scalability. I am passionate about digital transformation, professional development, culture leadership, and process improvement.</p>
-            <a href="mailto: shcaudill@gmail.com" target="_blank" class="me-4">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="me-2 mb-1" viewBox="0 0 24 24">
+            <div class="dividerDark"></div>
+            <p class="lead mb-4">As UX leader, I advocate for user-centered design, accessibility, customer experience, and scalability. I'm also passionate about digital transformation, professional development, culture leadership, and process improvement.</p>
+            <a href="mailto: shcaudill@gmail.com" target="_blank" class="me-4 text-decoration-none">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="me-2 mb-1 " viewBox="0 0 24 24">
                 <polygon points="19,15.1 19,9.4 14.3,12.2   " />
                 <path d="M12,13.6l-1.3-0.8L5,16.3C5.2,16.7,5.5,17,6,17h12c0.5,0,0.8-0.3,1-0.7l-5.6-3.5L12,13.6z" />
                 <polygon points="5,9.4 5,15.1 9.7,12.2  " />
                 <path d="M12,0C5.4,0,0,5.4,0,12c0,6.6,5.4,12,12,12s12-5.4,12-12C24,5.4,18.6,0,12,0z M20,16c0,1.1-0.9,2-2,2H6c-1.1,0-2-0.9-2-2V8 c0-1.1,0.9-2,2-2h12c1.1,0,2,0.9,2,2V16z" />
                 <path d="M18,7H6C5.4,7,5,7.4,5,8v0.2l7,4.2l7-4.2V8C19,7.4,18.6,7,18,7z" />
               </svg>Email</a>
-            <a href="https://www.linkedin.com/in/sean-caudill-85729934/" target="_blank" class="me-4">
+            <a href="https://www.linkedin.com/in/sean-caudill-85729934/" target="_blank" class="me-4 text-decoration-none">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="me-2 mb-1" viewBox="0 0 24 24">
                 <path d="M20.9,4c-0.3-0.3-0.6-0.7-1-1C17.9,1.2,15.1,0,12,0S6.1,1.2,4,3.1c-0.3,0.3-0.7,0.6-1,1C1.2,6.1,0,8.9,0,12 c0,3.1,1.2,5.9,3.1,8c0.3,0.3,0.6,0.7,1,1c2.1,1.9,4.9,3.1,8,3.1s5.9-1.2,8-3.1c0.3-0.3,0.7-0.6,1-1c1.9-2.1,3.1-4.9,3.1-8 C24,8.9,22.8,6.1,20.9,4z M7.2,8.8L7.2,8.8c-0.9,0-1.5-0.6-1.5-1.4C5.7,6.6,6.3,6,7.2,6s1.5,0.6,1.5,1.4C8.7,8.2,8.2,8.8,7.2,8.8z M8.6,9.9v8.1H5.9V9.9H8.6z M18.3,18.1h-2.7v-4.3c0-1.1-0.4-1.8-1.4-1.8c-0.7,0-1.2,0.5-1.4,1c-0.1,0.2-0.1,0.4-0.1,0.7v4.5H10 c0,0,0-7.4,0-8.1h2.7v1.1c0.4-0.6,1-1.3,2.4-1.3c1.8,0,3.1,1.2,3.1,3.7V18.1z" />
                 <path d="M12.7,11.1L12.7,11.1C12.7,11.1,12.7,11.1,12.7,11.1L12.7,11.1z" />
               </svg>LinkedIn</a>
-            <a href="https://www.instagram.com/seanwiththewin/" target="_blank" class="">
+            <a href="https://www.instagram.com/seanwiththewin/" target="_blank" class="text-decoration-none">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="me-2 mb-1" viewBox="0 0 24 24">
                 <path d="M12,9.3c-1.5,0-2.7,1.2-2.7,2.7c0,1.5,1.2,2.7,2.7,2.7c0,0,0,0,0,0c1.5,0,2.7-1.2,2.7-2.7C14.7,10.5,13.5,9.3,12,9.3z" />
                 <path d="M18.2,7.3c-0.1-0.4-0.3-0.6-0.6-0.9c-0.3-0.3-0.5-0.5-0.9-0.6c-0.3-0.1-0.7-0.2-1.5-0.3c-0.8,0-1.1,0-3.2,0h-0.7v0 c-1.5,0-1.8,0-2.5,0C8,5.5,7.6,5.7,7.3,5.8C6.9,5.9,6.6,6.1,6.4,6.4C6.1,6.6,5.9,6.9,5.8,7.3C5.7,7.6,5.5,8,5.5,8.8 c0,0.8,0,1.1,0,3.2c0,2.1,0,2.4,0,3.2c0,0.8,0.2,1.2,0.3,1.5c0.1,0.3,0.3,0.7,0.6,0.9c0.3,0.3,0.6,0.5,0.9,0.6 c0.3,0.1,0.7,0.2,1.5,0.3c0.8,0,1.1,0,3.2,0c2.1,0,2.4,0,3.2,0c0.8,0,1.2-0.2,1.5-0.3c0.4-0.1,0.6-0.3,0.9-0.6 c0.3-0.3,0.5-0.6,0.6-0.9c0.1-0.3,0.2-0.7,0.3-1.5c0-0.8,0-1.1,0-3.2s0-2.4,0-3.2C18.5,8,18.3,7.6,18.2,7.3z M12,16.1 c0,0-0.1,0-0.1,0c-2.3,0-4.1-1.9-4-4.2c0-2.3,1.9-4.1,4.2-4c2.2,0,4,1.8,4,4C16.1,14.2,14.3,16.1,12,16.1z M16.3,8.7 c-0.5,0-1-0.4-1-1s0.4-1,1-1s1,0.4,1,1S16.8,8.7,16.3,8.7z" />
@@ -102,46 +104,39 @@
         </div>
       </div>
     </section>
-    <section class="container-fluid bg-dark text-light py-6">
+    <section class="container-fluid bg-dark text-light text-center py-6">
+      <p class="lead pb-4">Over a dozen years of learning, designing, developing, and leading for digital experiences.</p>
       <div class="row px-md-6">
         <div class="col">
-          <img src="/images/bg-topo-01.svg" class="img-fluid" alt="...">
+          <img src="/images/logo-plexus.svg" class="img-fluid" alt="Plexus Worldwide logo">
           <p class="small">Plexus Worldwide</p>
         </div>
         <div class="col">
-          <img src="/images/bg-topo-01.svg" class="img-fluid" alt="...">
+          <img src="/images/logo-nationwide.svg" class="img-fluid" alt="Nationwide Insurance Company logo">
           <p class="small">Nationwide Insurance</p>
         </div>
         <div class="col">
-          <img src="/images/bg-topo-01.svg" class="img-fluid" alt="...">
+          <img src="/images/logo-aquent.svg" class="img-fluid" alt="Aquent logo">
           <p class="small">Aquent</p>
         </div>
         <div class="col">
-          <img src="/images/bg-topo-01.svg" class="img-fluid" alt="...">
+          <img src="/images/logo-hfi.svg" class="img-fluid" alt="Human Factors International logo">
           <p class="small">Human Factors, Int'l</p>
         </div>
         <div class="col">
-          <img src="/images/bg-topo-01.svg" class="img-fluid" alt="...">
+          <img src="/images/logo-google.svg" class="img-fluid" alt="Google logo">
           <p class="small">Google</p>
         </div>
         <div class="col">
-          <img src="/images/bg-topo-01.svg" class="img-fluid" alt="...">
+          <img src="/images/logo-asu.svg" class="img-fluid" alt="Arizona State University logo">
           <p class="small">Arizona State University</p>
         </div>
         <div class="col">
-          <img src="/images/bg-topo-01.svg" class="img-fluid" alt="...">
+          <img src="/images/logo-gcc.svg" class="img-fluid" alt="Glendale Community College logo">
           <p class="small">Glendale CC</p>
         </div>
       </div>
-      <div class="container col-md-9 col-xl-6 pt-5">
-        <div class="row">
-          <div class="col-12">
-            <h3>Experience</h3>
-            <div class="divider"></div>
-            <p>I'm proud to have over a dozen years learning about, designing & developing for, and leading those who make modern digital experiences.</p>
-            <a class="btn btn-primary" href="#" role="button">View my timeline</a>
-          </div>
-        </div>
+      <a class="btn btn-primary mt-5" href="/experience" role="button">My experience</a>
       </div>
     </section>
     <section class="container-fluid">
@@ -149,8 +144,8 @@
         <div class="row pt-5">
           <div class="col-12">
             <h3>My Work</h3>
-            <div class="divider"></div>
-            <p>My full portfolio is private. To access, feel free to reach out via <a href="https://www.linkedin.com/in/sean-caudill-85729934/" target="_blank">LinkedIn</a> or <a href="mailto: shcaudill@gmail.com" target="_blank">email</a>. Otherwise, here is a preview of recent projects I worked on that made me say, "I love my job"...</p>
+            <div class="dividerDark"></div>
+            <p>My portfolio is private. To request access, feel free to reach out via <a href="https://www.linkedin.com/in/sean-caudill-85729934/" target="_blank">LinkedIn</a> or <a href="mailto: shcaudill@gmail.com" target="_blank">email</a>. Otherwise, here's a preview of recent projects I worked on that made me say, "I love what I do"...</p>
           </div>
         </div>
         <div class="row row-cols-1 row-cols-md-2 pt-4 pb-5">
@@ -214,8 +209,8 @@
         <div class="row pt-5">
           <div class="col-12">
             <h3>About Me</h3>
-            <div class="divider"></div>
-            <p>See what makes me tick in (and out of) the office...</p>
+            <div class="dividerDark"></div>
+            <p>See what makes me tick, in (and out of) the office...</p>
           </div>
         </div>
         <div class="row row-cols-1 row-cols-md-2 pt-4">
@@ -285,5 +280,38 @@
   </footer>
   <script src="js/offcanvas.js"></script>
 </body>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen-md-down">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Oops, that's locked!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <p>My portfolio is private.<br>To request access, feel free to reach out...</p>
+        <a href="mailto: shcaudill@gmail.com" target="_blank" class="me-4 text-decoration-none">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="me-2 mb-1 " viewBox="0 0 24 24">
+            <polygon points="19,15.1 19,9.4 14.3,12.2   " />
+            <path d="M12,13.6l-1.3-0.8L5,16.3C5.2,16.7,5.5,17,6,17h12c0.5,0,0.8-0.3,1-0.7l-5.6-3.5L12,13.6z" />
+            <polygon points="5,9.4 5,15.1 9.7,12.2  " />
+            <path d="M12,0C5.4,0,0,5.4,0,12c0,6.6,5.4,12,12,12s12-5.4,12-12C24,5.4,18.6,0,12,0z M20,16c0,1.1-0.9,2-2,2H6c-1.1,0-2-0.9-2-2V8 c0-1.1,0.9-2,2-2h12c1.1,0,2,0.9,2,2V16z" />
+            <path d="M18,7H6C5.4,7,5,7.4,5,8v0.2l7,4.2l7-4.2V8C19,7.4,18.6,7,18,7z" />
+          </svg>Email</a>
+        <a href="https://www.linkedin.com/in/sean-caudill-85729934/" target="_blank" class="text-decoration-none">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="me-2 mb-1" viewBox="0 0 24 24">
+            <path d="M20.9,4c-0.3-0.3-0.6-0.7-1-1C17.9,1.2,15.1,0,12,0S6.1,1.2,4,3.1c-0.3,0.3-0.7,0.6-1,1C1.2,6.1,0,8.9,0,12 c0,3.1,1.2,5.9,3.1,8c0.3,0.3,0.6,0.7,1,1c2.1,1.9,4.9,3.1,8,3.1s5.9-1.2,8-3.1c0.3-0.3,0.7-0.6,1-1c1.9-2.1,3.1-4.9,3.1-8 C24,8.9,22.8,6.1,20.9,4z M7.2,8.8L7.2,8.8c-0.9,0-1.5-0.6-1.5-1.4C5.7,6.6,6.3,6,7.2,6s1.5,0.6,1.5,1.4C8.7,8.2,8.2,8.8,7.2,8.8z M8.6,9.9v8.1H5.9V9.9H8.6z M18.3,18.1h-2.7v-4.3c0-1.1-0.4-1.8-1.4-1.8c-0.7,0-1.2,0.5-1.4,1c-0.1,0.2-0.1,0.4-0.1,0.7v4.5H10 c0,0,0-7.4,0-8.1h2.7v1.1c0.4-0.6,1-1.3,2.4-1.3c1.8,0,3.1,1.2,3.1,3.7V18.1z" />
+            <path d="M12.7,11.1L12.7,11.1C12.7,11.1,12.7,11.1,12.7,11.1L12.7,11.1z" />
+          </svg>LinkedIn</a>
+        <div class="dividerLightGray my-4 mx-auto"></div>
+        <p>You can also see my timeline, or about what "makes me tick"...</p>
+        <p class="mb-0"><a class="text-decoration-none me-3" href="/experience">Experience</a>|<a class="text-decoration-none ms-3" href="/about-me">About Me</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-secondary me-auto" data-bs-dismiss="modal">Close</button>
+        <a href="/my-work"><button type="button" class="btn btn-primary">Enter password</button></a>
+      </div>
+    </div>
+  </div>
+</div>
 
 </html>

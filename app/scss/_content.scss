@@ -8,9 +8,21 @@ body {
   padding-top: 72px;
 }
 
-.divider{
+.dividerLight{
     margin-top: 1rem;
     margin-bottom: 1rem;
-    border-top: 1px solid $secondary;
+    border-top: 1px solid $blueLight;
+    width: 5rem;
+}
+.dividerDark{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: 1px solid $blue-500;
+    width: 5rem;
+}
+.dividerLightGray{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: 1px solid $grayLight;
     width: 5rem;
 }

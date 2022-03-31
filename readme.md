@@ -3,11 +3,15 @@
 
 Welcome to the design and development portfolio of Sean Caudill. Visit here: [seancaudill.com](https://seancaudill.com).
 
-I'm developing my site using [Bootstrap](https://getbootstrap.com/). To test it out yourself just run `$ gulp` in the project's root directory:
+I'm developing my site using [Bootstrap](https://getbootstrap.com/). To test it out yourself just run `$ gulp` in the project's root directory.
 
 &nbsp;
 
 ### Updates
+
+***
+
+3/30/22: Feature section, heros, modals, buttons, and more!
 
 ***
 
