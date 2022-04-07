@@ -1,7 +1,6 @@
 //bg-topo-md is in responsive.scss
 .bg-topo-xs{
   background: url("../images/bg-topo-01.svg") no-repeat;
-
 }
 .bg-enrollment-mobile {
   background: #fff url("../images/hero-enrollment-redesign.jpg") right/cover no-repeat;
@@ -9,4 +8,25 @@
 }
 .bg-enrollment {
   background: #fff url("../images/hero-enrollment-redesign.jpg") center/cover no-repeat;
+}
+.bg-topo-triangle{
+  background: #181B1B;
+  background-image: url("../images/bg-topo-01.svg"); /* fallback */
+  background-image: url("../images/bg-topo-01.svg"), linear-gradient(to bottom right, #181B1B 0%, #181B1B 50%, #fff 50%, #fff 100%); /* W3C */
+}
+.bg-gradient-dark{
+  background: #181B1B;
+  background: linear-gradient(to bottom, #181B1B 0%, #181B1B 50%, #fff 50%, #fff 100%);
+}
+.bg-portfolio-card-enrollment{
+  background: url("../images/portfolio-card-bg-enrollment.jpg") no-repeat;
+}
+.bg-portfolio-card-design-system{
+  background: $gray-100;
+}
+.bg-portfolio-card-ucd{
+  background: url("../images/portfolio-card-bg-ucd.png") no-repeat;
+}
+.bg-portfolio-card-shop{
+  background: url("../images/portfolio-card-bg-shop.jpg") no-repeat;
 }

@@ -15,6 +15,7 @@
     "node-sass": "^6.0.0"
   },
   "dependencies": {
-    "bootstrap": "^5.0.1"
+    "bootstrap": "^5.0.1",
+    "yall-js": "^3.2.0"
   }
 }
