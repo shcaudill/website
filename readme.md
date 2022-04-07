@@ -5,6 +5,10 @@ Welcome to the design and development portfolio of Sean Caudill. Visit here: [se
 
 I'm developing my site using [Bootstrap](https://getbootstrap.com/). To test it out yourself just run `$ gulp` in the project's root directory.
 
+To purge css, run the following in the CLI and point CSS towards /css-min/styles.css...
+```
+purgecss --css app/css/styles.css --content app/index.html "app/**/*.html" --output app/css-min
+```
 &nbsp;
 
 ### Updates

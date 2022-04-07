@@ -10,6 +10,7 @@ gulp.task('sass', function() {
     .pipe(browserSync.stream());
 });
 
+
 // Static Server + watching scss/html files
 gulp.task('serve', gulp.series('sass', function() {
 
