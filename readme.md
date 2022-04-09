@@ -6,6 +6,7 @@ Welcome to the design and development portfolio of Sean Caudill. Visit here: [se
 I'm developing my site using [Bootstrap](https://getbootstrap.com/). To test it out yourself just run `$ gulp` in the project's root directory.
 
 ### Stack
+***
 
 I'm developing the site leveraging the following technologies:
 
@@ -14,8 +15,10 @@ I'm developing the site leveraging the following technologies:
 - [Bootstrap NPM starter](https://github.com/twbs/bootstrap-npm-starter): template repo for using Bootstrap with NPM
 	- Currently built using Bootstrap v4, so modifications were made to interact with v5
 - [Cloudinary Media Optimizer](https://cloudinary.com/products/media_optimizer): Integrated image compression and optimization
+- Google Analytics 4
 
 ### Notes
+***
 
 The portfolio section is password pretected and hidden from GitHub. To request access, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/sean-caudill-85729934/)!
 

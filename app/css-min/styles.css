@@ -977,11 +977,15 @@ button,
     display: block !important; }
   .d-md-none {
     display: none !important; }
+  .justify-content-md-start {
+    justify-content: flex-start !important; }
   .align-items-md-center {
     align-items: center !important; }
   .mx-md-0 {
     margin-right: 0 !important;
     margin-left: 0 !important; }
+  .mb-md-0 {
+    margin-bottom: 0 !important; }
   .mb-md-6 {
     margin-bottom: 6rem !important; }
   .p-md-5 {
@@ -999,7 +1003,9 @@ button,
   .ps-md-6 {
     padding-left: 6rem !important; }
   .text-md-start {
-    text-align: left !important; } }
+    text-align: left !important; }
+  .text-md-end {
+    text-align: right !important; } }
 
 @media (min-width: 992px) {
   .d-lg-block {
@@ -1118,25 +1124,6 @@ body {
 
 .iphone-screen {
   max-width: 350px; }
-
-@media (max-width: 991.98px) {
-  .offcanvas-collapse {
-    position: fixed;
-    top: 72px;
-    /* Height of navbar */
-    bottom: 0;
-    left: 100%;
-    width: 100%;
-    padding-right: 2.25rem;
-    padding-left: 2.25rem;
-    overflow-y: auto;
-    visibility: hidden;
-    background-color: #181B1B;
-    transition: transform .3s ease-in-out, visibility .3s ease-in-out; }
-  .navbar-light .navbar-nav .nav-link {
-    font-size: 1.5rem;
-    text-align: center;
-    color: #FAFAFA; } }
 
 .navbar-brand {
   font-family: "Roboto Slab", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
