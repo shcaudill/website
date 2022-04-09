@@ -5,6 +5,20 @@ Welcome to the design and development portfolio of Sean Caudill. Visit here: [se
 
 I'm developing my site using [Bootstrap](https://getbootstrap.com/). To test it out yourself just run `$ gulp` in the project's root directory.
 
+### Stack
+
+I'm developing the site leveraging the following technologies:
+
+- [NPM](https://www.npmjs.com/) & [Gulp](https://gulpjs.com/): CLI development environment and package management
+- [Bootstrap](https://getbootstrap.com/): HTML/CSS/JS framework, front-end toolkit
+- [Bootstrap NPM starter](https://github.com/twbs/bootstrap-npm-starter): template repo for using Bootstrap with NPM
+	- Currently built using Bootstrap v4, so modifications were made to interact with v5
+- [Cloudinary Media Optimizer](https://cloudinary.com/products/media_optimizer): Integrated image compression and optimization
+
+### Notes
+
+The portfolio section is password pretected and hidden from GitHub. To request access, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/sean-caudill-85729934/)!
+
 To purge css, run the following in the CLI and point CSS towards /css-min/styles.css...
 ```
 purgecss --css app/css/styles.css --content app/index.html "app/**/*.html" --output app/css-min
@@ -12,6 +26,14 @@ purgecss --css app/css/styles.css --content app/index.html "app/**/*.html" --out
 &nbsp;
 
 ### Updates
+
+***
+
+4/06/22: Homepage launch!
+
+***
+
+4/06/22: Wrapping up homepage items, purging css.
 
 ***
 
