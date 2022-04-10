@@ -32,7 +32,7 @@ purgecss --css app/css/styles.css --content app/index.html "app/**/*.html" --out
 
 ***
 
-4/06/22: Homepage launch!
+4/09/22: Homepage launch! Then, fixes, added navbar scroll.
 
 ***
 

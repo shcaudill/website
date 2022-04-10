@@ -659,23 +659,33 @@
   font-weight: 400;
   font-style: italic; }
 
+.scrolled-down {
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out; }
+
+.scrolled-up {
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out; }
+
 @media (max-width: 991.98px) {
   .offcanvas-collapse {
-    position: fixed;
-    top: 72px;
+    position: relative;
+    top: 16px;
     /* Height of navbar */
     bottom: 0;
     left: 100%;
-    width: 100%;
+    width: 10%;
+    height: 0;
     padding-right: 2.25rem;
     padding-left: 2.25rem;
-    overflow-y: auto;
+    overflow: hidden;
     visibility: hidden;
     background-color: #181B1B;
     transition: transform .3s ease-in-out, visibility .3s ease-in-out; }
   .offcanvas-collapse.open {
     visibility: visible;
-    transform: translateX(-100%); }
+    transform: translateX(-100%);
+    height: 100vh; }
   .navbar-light .navbar-nav .nav-link {
     font-size: 1.5rem;
     text-align: center;
