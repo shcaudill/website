@@ -32,6 +32,10 @@ purgecss --css app/css/styles.css --content app/index.html "app/**/*.html" --out
 
 ***
 
+4/10/22: Removed navbar scroll, too buggy, will address later. Stable is good.
+
+***
+
 4/09/22: Homepage launch! Then, fixes, added navbar scroll.
 
 ***
