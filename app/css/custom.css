@@ -190,7 +190,7 @@
   border-color: #0F768A !important; }
 
 .border-light {
-  border-color: #FAFAFA !important; }
+  border-color: #F7F7FA !important; }
 
 .border-grayLight {
   border-color: #E4E7E7 !important; }
@@ -4166,7 +4166,7 @@ progress {
 
 :root {
   --bs-blue: #0F768A;
-  --bs-gray-100: #FAFAFA;
+  --bs-gray-100: #F7F7FA;
   --bs-gray-200: #E4E7E7;
   --bs-gray-300: #C9CFCF;
   --bs-gray-400: #949E9E;
@@ -4176,7 +4176,7 @@ progress {
   --bs-gray-800: #242828;
   --bs-gray-900: #181B1B;
   --bs-primary: #0F768A;
-  --bs-light: #FAFAFA;
+  --bs-light: #F7F7FA;
   --bs-grayLight: #E4E7E7;
   --bs-gray: #949E9E;
   --bs-grayDark: #242828;
@@ -4184,7 +4184,7 @@ progress {
   --bs-blueLight: #A3E8F5;
   --bs-blueDark: #083B45;
   --bs-primary-rgb: 15, 118, 138;
-  --bs-light-rgb: 250, 250, 250;
+  --bs-light-rgb: 247, 247, 250;
   --bs-grayLight-rgb: 228, 231, 231;
   --bs-gray-rgb: 148, 158, 158;
   --bs-grayDark-rgb: 36, 40, 40;
@@ -4311,7 +4311,7 @@ progress {
 
 .btn-outline-secondary:hover {
   color: #0C5A6A;
-  background-color: #FAFAFA;
+  background-color: #F7F7FA;
   border-color: #0C5A6A; }
 
 html,
@@ -4448,19 +4448,19 @@ body {
   background: linear-gradient(to bottom, #181B1B 0%, #181B1B 50%, #fff 50%, #fff 100%); }
 
 .bg-gradient-white {
-  background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 50%, #FAFAFA 50%, #FAFAFA 100%); }
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 50%, #F7F7FA 50%, #F7F7FA 100%); }
 
 .bg-portfolio-card-enrollment {
-  background: url("../images/portfolio-card-bg-enrollment.jpg") no-repeat; }
+  background: url("https://shcaudill.mo.cloudinary.net/images/portfolio-card-bg-enrollment.jpg") center/cover no-repeat; }
 
 .bg-portfolio-card-design-system {
-  background: #FAFAFA; }
+  background: #F7F7FA; }
 
 .bg-portfolio-card-ucd {
-  background: url("../images/portfolio-card-bg-ucd.png") no-repeat; }
+  background: url("https://shcaudill.mo.cloudinary.net/images/portfolio-card-bg-ucd.png") center/cover no-repeat; }
 
 .bg-portfolio-card-shop {
-  background: url("../images/portfolio-card-bg-shop.jpg") no-repeat; }
+  background: url("https://shcaudill.mo.cloudinary.net/images/portfolio-card-bg-shop.jpg") center/cover no-repeat; }
 
 .iphone-screen {
   max-width: 350px; }

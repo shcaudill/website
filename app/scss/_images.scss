@@ -14,16 +14,16 @@
   background: linear-gradient(to bottom, rgba(255,0,0,0) 0%, rgba(255,0,0,0) 50%, $light 50%, $light 100%);
 }
 .bg-portfolio-card-enrollment{
-  background: url("../images/portfolio-card-bg-enrollment.jpg") no-repeat;
+  background: url("https://shcaudill.mo.cloudinary.net/images/portfolio-card-bg-enrollment.jpg") center/cover no-repeat;
 }
 .bg-portfolio-card-design-system{
   background: $gray-100;
 }
 .bg-portfolio-card-ucd{
-  background: url("../images/portfolio-card-bg-ucd.png") no-repeat;
+  background: url("https://shcaudill.mo.cloudinary.net/images/portfolio-card-bg-ucd.png") center/cover no-repeat;
 }
 .bg-portfolio-card-shop{
-  background: url("../images/portfolio-card-bg-shop.jpg") no-repeat;
+  background: url("https://shcaudill.mo.cloudinary.net/images/portfolio-card-bg-shop.jpg") center/cover no-repeat;
 }
 .iphone-screen{
   max-width: 350px;
