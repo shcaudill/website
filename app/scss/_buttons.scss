@@ -1,6 +1,26 @@
 .btn{
-    min-width: 9rem;
+  min-width: 10rem;
+  padding: 1rem 2rem;
+  box-shadow: 0;
+  border-radius: 0;
+}
+.btn-primary{
+  background-color: $primary;
+  border-color: $primary;
+}
+.btn-primary:hover{
+  background-color: $blue-700;
+  border-color: $blue-700;
 }
 .btn-secondary{
   color: $white;  
+}
+.btn-outline-secondary {
+  color: $primary;
+  border-color: $blue-500;
+}
+.btn-outline-secondary:hover {
+  color: $blue-700;
+  background-color: $gray-100;
+  border-color: $blue-700;
 }

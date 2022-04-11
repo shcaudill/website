@@ -24,7 +24,7 @@ The portfolio section is password pretected and hidden from GitHub. To request a
 
 To purge css, run the following in the CLI and point CSS towards /css-min/styles.css...
 ```
-purgecss --css app/css/styles.css --content app/index.html "app/**/*.html" --output app/css-min
+purgecss --css app/css/custom.css --content app/index.html "app/**/*.html" --output app/css-min
 ```
 &nbsp;
 
@@ -32,7 +32,7 @@ purgecss --css app/css/styles.css --content app/index.html "app/**/*.html" --out
 
 ***
 
-4/10/22: Removed navbar scroll, too buggy, will address later. Stable is good.
+4/10/22: Removed navbar scroll, too buggy, will address later. Stable is good. Changed Bootstrap SCSS strategy and setup. Seems to be working...
 
 ***
 
