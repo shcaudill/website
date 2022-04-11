@@ -30,6 +30,8 @@ purgecss --css app/css/custom.css --content app/index.html "app/**/*.html" --out
 
 ## Updates
 
+**4/11/22:** Image fixes and forward momentum.
+
 **4/10/22:** Removed navbar scroll, too buggy, will address later. Stable is good. Changed Bootstrap SCSS strategy and setup. Seems to be working...
 
 **4/09/22:** Homepage launch! Then, fixes, added navbar scroll.
