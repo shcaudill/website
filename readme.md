@@ -1,12 +1,10 @@
 ## Summary
-***
 
 Welcome to the design and development portfolio of Sean Caudill. Visit here: [seancaudill.com](https://seancaudill.com).
 
 I'm developing my site using [Bootstrap](https://getbootstrap.com/). To test it out yourself just run `$ gulp` in the project's root directory.
 
 ## Stack
-***
 
 I'm developing the site leveraging the following technologies:
 
@@ -18,7 +16,6 @@ I'm developing the site leveraging the following technologies:
 - Google Analytics 4
 
 ## Notes
-***
 
 The portfolio section is password pretected and hidden from GitHub. To request access, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/sean-caudill-85729934/)!
 
@@ -30,7 +27,7 @@ purgecss --css app/css/custom.css --content app/index.html "app/**/*.html" --out
 
 ## Updates
 
-**4/11/22:** Image fixes and forward momentum.
+**4/11/22:** Image fixes and forward momentum. Built out the portfolio landing page!
 
 **4/10/22:** Removed navbar scroll, too buggy, will address later. Stable is good. Changed Bootstrap SCSS strategy and setup. Seems to be working...
 

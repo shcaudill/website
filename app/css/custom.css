@@ -193,10 +193,10 @@
   border-color: #F7F7FA !important; }
 
 .border-grayLight {
-  border-color: #E4E7E7 !important; }
+  border-color: #949E9E !important; }
 
 .border-gray {
-  border-color: #949E9E !important; }
+  border-color: #383E3E !important; }
 
 .border-grayDark {
   border-color: #242828 !important; }
@@ -4177,16 +4177,16 @@ progress {
   --bs-gray-900: #181B1B;
   --bs-primary: #0F768A;
   --bs-light: #F7F7FA;
-  --bs-grayLight: #E4E7E7;
-  --bs-gray: #949E9E;
+  --bs-grayLight: #949E9E;
+  --bs-gray: #383E3E;
   --bs-grayDark: #242828;
   --bs-dark: #181B1B;
   --bs-blueLight: #A3E8F5;
   --bs-blueDark: #083B45;
   --bs-primary-rgb: 15, 118, 138;
   --bs-light-rgb: 247, 247, 250;
-  --bs-grayLight-rgb: 228, 231, 231;
-  --bs-gray-rgb: 148, 158, 158;
+  --bs-grayLight-rgb: 148, 158, 158;
+  --bs-gray-rgb: 56, 62, 62;
   --bs-grayDark-rgb: 36, 40, 40;
   --bs-dark-rgb: 24, 27, 27;
   --bs-blueLight-rgb: 163, 232, 245;
@@ -4314,37 +4314,6 @@ progress {
   background-color: #F7F7FA;
   border-color: #0C5A6A; }
 
-html,
-body {
-  overflow-x: hidden;
-  /* Prevent scroll on narrow devices */ }
-
-body {
-  padding-top: 72px; }
-
-@media (min-width: 768px) {
-  .ampersand {
-    margin-left: -30px; }
-  .navbar {
-    padding-left: 1rem;
-    padding-right: 1rem; }
-  .navbar-brand {
-    margin-left: .5rem; } }
-
-@media (min-width: 992px) {
-  .ampersand {
-    margin-left: -39px; }
-  .navbar-brand {
-    margin-left: .5rem; }
-  .bg-topo-md {
-    background: url("../images/bg-topo-01.svg") top left/50% no-repeat; }
-  .bg-topo-gradient-md {
-    background: url("../images/bg-topo-01.svg") top left/33% no-repeat; } }
-
-@media (min-width: 1200px) {
-  .ampersand {
-    margin-left: -42px; } }
-
 .modal-header {
   padding: 1rem 2rem; }
 
@@ -4431,13 +4400,13 @@ body {
   border-top: 1px solid #149CB8; }
 
 .divider-light-gray {
-  border-top: 1px solid #E4E7E7; }
+  border-top: 1px solid #949E9E; }
 
 .social-links {
-  margin-top: 1.5rem; }
+  margin-top: 2rem; }
 
-.bg-topo-xs {
-  background: url("../images/bg-topo-01.svg") no-repeat; }
+.bg-topo {
+  background: #181B1B url("https://shcaudill.mo.cloudinary.net/images/bg-topo-01.svg") top left/100% no-repeat; }
 
 .bg-gradient-dark {
   background: #181B1B;
@@ -4446,8 +4415,8 @@ body {
 .iphone-screen {
   max-width: 350px; }
 
-.bg-gradient-white {
-  background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 50%, #F7F7FA 50%, #F7F7FA 100%); }
+.bg-gradient-portfolio-icons {
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 45.1%, #F7F7FA 45.1%, #F7F7FA 100%); }
 
 .bg-portfolio-card-enrollment {
   background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-card-plexus-enrollment.jpg") center/cover no-repeat; }
@@ -4460,6 +4429,9 @@ body {
 
 .bg-portfolio-card-ucd {
   background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-card-plexus-ucd.png") center/cover no-repeat; }
+
+.icon-circles {
+  max-width: 200px; }
 
 .navbar-brand, .font-serif {
   font-family: "Roboto Slab", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
@@ -4484,3 +4456,36 @@ a.text-light:hover {
 
 .card-body > a {
   text-decoration: none; }
+
+html,
+body {
+  overflow-x: hidden;
+  /* Prevent scroll on narrow devices */ }
+
+body {
+  padding-top: 72px; }
+
+@media (min-width: 768px) {
+  .ampersand {
+    margin-left: -37px; }
+  .navbar {
+    padding-left: 1rem;
+    padding-right: 1rem; }
+  .navbar-brand {
+    margin-left: .5rem; }
+  .bg-topo {
+    background: #181B1B url("https://shcaudill.mo.cloudinary.net/images/bg-topo-01.svg") top left/50% no-repeat; }
+  .bg-gradient-portfolio-icons {
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 33%, #F7F7FA 33%, #F7F7FA 100%); } }
+
+@media (min-width: 992px) {
+  .ampersand {
+    margin-left: -39px; }
+  .navbar-brand {
+    margin-left: .5rem; }
+  .bg-gradient-portfolio-icons {
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 38%, #F7F7FA 38%, #F7F7FA 100%); } }
+
+@media (min-width: 1200px) {
+  .ampersand {
+    margin-left: -42px; } }
