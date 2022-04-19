@@ -211,7 +211,7 @@
   border-color: #083B45 !important; }
 
 .border-white {
-  border-color: #fff !important; }
+  border-color: #ffffff !important; }
 
 .border-1 {
   border-width: 1px !important; }
@@ -896,13 +896,13 @@
   --bs-text-opacity: 1;
   color: rgba(var(--bs-blueDark-rgb), var(--bs-text-opacity)) !important; }
 
-.text-black {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important; }
-
 .text-white {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important; }
+
+.text-black {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important; }
 
 .text-body {
   --bs-text-opacity: 1;
@@ -968,13 +968,13 @@
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-blueDark-rgb), var(--bs-bg-opacity)) !important; }
 
-.bg-black {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important; }
-
 .bg-white {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important; }
+
+.bg-black {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important; }
 
 .bg-body {
   --bs-bg-opacity: 1;
@@ -4001,7 +4001,7 @@ code {
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 0.875em;
-  color: #fff;
+  color: #ffffff;
   background-color: #181B1B;
   border-radius: 0.2rem; }
   kbd kbd {
@@ -4166,6 +4166,7 @@ progress {
 
 :root {
   --bs-blue: #0F768A;
+  --bs-gray-000: #ffffff;
   --bs-gray-100: #F7F7FA;
   --bs-gray-200: #E4E7E7;
   --bs-gray-300: #C9CFCF;
@@ -4183,6 +4184,7 @@ progress {
   --bs-dark: #181B1B;
   --bs-blueLight: #A3E8F5;
   --bs-blueDark: #083B45;
+  --bs-white: #ffffff;
   --bs-primary-rgb: 15, 118, 138;
   --bs-light-rgb: 247, 247, 250;
   --bs-grayLight-rgb: 148, 158, 158;
@@ -4191,6 +4193,7 @@ progress {
   --bs-dark-rgb: 24, 27, 27;
   --bs-blueLight-rgb: 163, 232, 245;
   --bs-blueDark-rgb: 8, 59, 69;
+  --bs-white-rgb: 255, 255, 255;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 56, 62, 62;
@@ -4203,7 +4206,7 @@ progress {
   --bs-body-font-weight: 300;
   --bs-body-line-height: 1.5;
   --bs-body-color: #383E3E;
-  --bs-body-bg: #fff; }
+  --bs-body-bg: #ffffff; }
 
 .lead {
   font-size: 1.25rem;
@@ -4303,7 +4306,7 @@ progress {
   border-color: #0C5A6A; }
 
 .btn-secondary {
-  color: #fff; }
+  color: #ffffff; }
 
 .btn-outline-secondary {
   color: #0F768A;
@@ -4369,10 +4372,10 @@ progress {
 
 .bg-gradient-dark {
   background: #181B1B;
-  background: linear-gradient(to bottom, #181B1B 0%, #181B1B 50%, #fff 50%, #fff 100%); }
+  background: linear-gradient(to bottom, #181B1B 0%, #181B1B 50%, #ffffff 50%, #ffffff 100%); }
 
 .bg-gradient-portfolio-icons {
-  background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 45.1%, #F7F7FA 45.1%, #F7F7FA 100%); }
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 45.1%, #ffffff 45.1%, #ffffff 100%); }
 
 .bg-portfolio-card-enrollment {
   background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-card-plexus-enrollment.jpg") center/cover no-repeat; }
@@ -4395,12 +4398,19 @@ progress {
 .bg-topo-dark {
   background: url("https://shcaudill.mo.cloudinary.net/images/bg-topo-white-transparent.svg") top left/100% no-repeat; }
 
+.bg-portfolio {
+  background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-hero.jpg") center/cover no-repeat;
+  min-height: 400px; }
+
 .bg-portfolio-enrollment {
   background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-plexus-enrollment-hero.jpg") center/cover no-repeat;
   min-height: 400px; }
 
-.bg-portfolio--screens-enrollment {
+.bg-portfolio-screens-enrollment {
   background: #c4f1c2; }
+
+.bg-portfolio-screens-enrollment-social {
+  background: #ffffff; }
 
 .icon-circles {
   max-width: 200px; }
@@ -4450,7 +4460,7 @@ progress {
     visibility: visible;
     transform: translateX(-100%); }
   .nav-link {
-    color: #fff !important;
+    color: #ffffff !important;
     font-size: 24px; } }
 
 .navbar-brand, .font-serif {
@@ -4501,10 +4511,15 @@ body {
   .bg-topo-blue {
     background: url("https://shcaudill.mo.cloudinary.net/images/bg-topo-blue.svg") top left/66% no-repeat; }
   .bg-gradient-portfolio-icons {
-    background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 33%, #F7F7FA 33%, #F7F7FA 100%); }
-  .bg-portfolio--screens-enrollment {
-    background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-plexus-enrollment-screens-hero.jpg") left/cover no-repeat;
-    min-height: 400px; } }
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 33%, #ffffff 33%, #ffffff 100%); }
+  .bg-portfolio-screens-enrollment {
+    background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-plexus-enrollment-screens-hero.jpg") left/cover no-repeat; }
+  .bg-portfolio-screens-enrollment-social {
+    background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-plexus-enrollment-social-hero.jpg") center/cover no-repeat; }
+  .bg-portfolio-screens-enrollment-shop {
+    background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-plexus-enrollment-shop-hero.jpg") center/cover no-repeat; }
+  .bg-portfolio-screens-enrollment-upgrade {
+    background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-plexus-enrollment-upgrade-hero.jpg") center/cover no-repeat; } }
 
 @media (min-width: 992px) {
   .navbar-brand {
@@ -4514,7 +4529,9 @@ body {
   .bg-topo-dark {
     background: url("https://shcaudill.mo.cloudinary.net/images/bg-topo-white-transparent.svg") top left/50% no-repeat; }
   .bg-gradient-portfolio-icons {
-    background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 38%, #F7F7FA 38%, #F7F7FA 100%); }
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 38%, #ffffff 38%, #ffffff 100%); }
+  .bg-portfolio {
+    min-height: 500px; }
   .bg-portfolio-enrollment {
     min-height: 500px; } }
 
