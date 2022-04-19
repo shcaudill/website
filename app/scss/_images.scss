@@ -1,13 +1,7 @@
-//bg-topo-md is in responsive.scss
-.bg-topo{
-  background: $dark url("https://shcaudill.mo.cloudinary.net/images/bg-topo-01.svg") top left/100% no-repeat;
-}
+// -- BACKGROUNDS -- //
 .bg-gradient-dark{
   background: #181B1B;
   background: linear-gradient(to bottom, $dark 0%, $dark 50%, $white 50%, $white 100%);
-}
-.iphone-screen{
-  max-width: 350px;
 }
 .bg-gradient-portfolio-icons{
   background: linear-gradient(to bottom, rgba(255,0,0,0) 0%, rgba(255,0,0,0) 45.1%, $light 45.1%, $light 100%);
@@ -15,6 +9,8 @@
 .bg-portfolio-card-enrollment{
   background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-card-plexus-enrollment.jpg") center/cover no-repeat;
 }
+
+// -- CARDS -- //
 .bg-portfolio-card-design-system{
   background: $gray-100;
 }
@@ -24,7 +20,30 @@
 .bg-portfolio-card-ucd{
   background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-card-plexus-ucd.png") center/cover no-repeat;
 }
+
+// -- HEROS -- //
+.bg-topo-blue{
+  background: url("https://shcaudill.mo.cloudinary.net/images/bg-topo-blue.svg") top left/100% no-repeat;
+}
+.bg-topo-blue-full{
+  background: url("https://shcaudill.mo.cloudinary.net/images/bg-topo-blue-full.svg") center/100% no-repeat;
+}
+.bg-topo-dark{
+  background: url("https://shcaudill.mo.cloudinary.net/images/bg-topo-white-transparent.svg") top left/100% no-repeat;
+}
+.bg-portfolio-enrollment{
+  background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-plexus-enrollment-hero.jpg") center/cover no-repeat;
+  min-height: 400px;
+}
+.bg-portfolio--screens-enrollment{
+  background: #c4f1c2
+}
+
+// -- MISC -- //
 .icon-circles{
   max-width: 200px;
+}
+.iphone-screen{
+  max-width: 350px;
 }
 

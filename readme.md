@@ -27,6 +27,8 @@ purgecss --css app/css/custom.css --content app/index.html "app/**/*.html" --out
 
 ## Updates
 
+**4/18/22:** Been working on a case study, almost finished with the first.
+
 **4/11/22:** Image fixes and forward momentum. Built out the portfolio landing page!
 
 **4/10/22:** Removed navbar scroll, too buggy, will address later. Stable is good. Changed Bootstrap SCSS strategy and setup. Seems to be working...
