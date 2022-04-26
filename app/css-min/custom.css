@@ -1269,6 +1269,9 @@ body {
   overflow-x: hidden;
   /* Prevent scroll on narrow devices */ }
 
+body {
+  padding-top: 72px; }
+
 @media (min-width: 768px) {
   .ampersand {
     margin-left: 0px; }

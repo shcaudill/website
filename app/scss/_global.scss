@@ -2,6 +2,9 @@ html,
 body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
 }
+body{
+  padding-top:72px;
+}
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   
