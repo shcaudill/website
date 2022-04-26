@@ -17,7 +17,7 @@ I'm developing the site leveraging the following technologies:
 
 ## Notes
 
-The portfolio section is password pretected and hidden from GitHub. To request access, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/sean-caudill-85729934/)!
+The portfolio section is password pretected and hidden from GitHub. To request access, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/sean-caudill/)!
 
 To purge css, run the following in the CLI and point CSS towards /css-min/styles.css...
 ```
@@ -26,6 +26,8 @@ purgecss --css app/css/custom.css --content app/index.html "app/**/*.html" --out
 &nbsp;
 
 ## Updates
+
+**4/26/22:** Finished with the second case study. Removed JSDelivr CSS link, minified!
 
 **4/18/22:** Been working on a case study, almost finished with the first.
 

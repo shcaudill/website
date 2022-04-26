@@ -9,15 +9,11 @@
     padding-left: 1rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: $dark;
-    transition: transform .3s ease-in-out, visibility .3s ease-in-out;
-  }
+    background-color: #181B1B;
+    transition: transform .3s ease-in-out, visibility .3s ease-in-out; }
   .offcanvas-collapse.open {
     visibility: visible;
-    transform: translateX(-100%);
-  }
-  .nav-link{
-    color: $white !important;
-    font-size: 24px;
-  }
-}
+    transform: translateX(-100%); }
+  .nav-link {
+    color: #FFFFFF !important;
+    font-size: 24px; } }

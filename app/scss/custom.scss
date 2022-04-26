@@ -11,10 +11,21 @@
 @import "../../node_modules/bootstrap/scss/utilities/api";
 
 // 4. Include any optional Bootstrap components
+@import "../../node_modules/bootstrap/scss/buttons";
+@import "../../node_modules/bootstrap/scss/card";
+@import "../../node_modules/bootstrap/scss/close";
 @import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/helpers";
 @import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/helpers";
+@import "../../node_modules/bootstrap/scss/images";
+@import "../../node_modules/bootstrap/scss/modal";
+@import "../../node_modules/bootstrap/scss/nav";
+@import "../../node_modules/bootstrap/scss/navbar";
+@import "../../node_modules/bootstrap/scss/popover";
 @import "../../node_modules/bootstrap/scss/reboot";
 @import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/transitions";
 @import "../../node_modules/bootstrap/scss/type";
 
 // 5. Add additional custom code here
@@ -25,14 +36,10 @@
 @import 'images';
 @import 'modals';
 @import 'navbar';
-@import 'offcanvas';
+//@import 'offcanvas';
 @import 'typography';
 @import 'global'; //Must be last so responsive classes load last
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
-//@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&display=swap');
-//@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
-//@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
-//@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,900;1,700&display=swap');
 
 
