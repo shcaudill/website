@@ -31,6 +31,10 @@
 .align-self-end {
   align-self: flex-end !important; }
 
+.mx-2 {
+  margin-right: 0.5rem !important;
+  margin-left: 0.5rem !important; }
+
 .mx-3 {
   margin-right: 1rem !important;
   margin-left: 1rem !important; }
@@ -44,8 +48,8 @@
   margin-bottom: 2rem !important; }
 
 .my-5 {
-  margin-top: 3rem !important;
-  margin-bottom: 3rem !important; }
+  margin-top: 4rem !important;
+  margin-bottom: 4rem !important; }
 
 .mt-2 {
   margin-top: 0.5rem !important; }
@@ -57,7 +61,7 @@
   margin-top: 2rem !important; }
 
 .mt-5 {
-  margin-top: 3rem !important; }
+  margin-top: 4rem !important; }
 
 .me-2 {
   margin-right: 0.5rem !important; }
@@ -87,7 +91,7 @@
   margin-bottom: 2rem !important; }
 
 .mb-5 {
-  margin-bottom: 3rem !important; }
+  margin-bottom: 4rem !important; }
 
 .ms-1 {
   margin-left: 0.25rem !important; }
@@ -97,9 +101,6 @@
 
 .p-0 {
   padding: 0 !important; }
-
-.p-4 {
-  padding: 2rem !important; }
 
 .px-0 {
   padding-right: 0 !important;
@@ -114,23 +115,19 @@
   padding-left: 1rem !important; }
 
 .px-5 {
-  padding-right: 3rem !important;
-  padding-left: 3rem !important; }
-
-.py-3 {
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important; }
+  padding-right: 4rem !important;
+  padding-left: 4rem !important; }
 
 .py-4 {
   padding-top: 2rem !important;
   padding-bottom: 2rem !important; }
 
 .py-5 {
-  padding-top: 3rem !important;
-  padding-bottom: 3rem !important; }
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important; }
 
 .pt-6 {
-  padding-top: 6rem !important; }
+  padding-top: 8rem !important; }
 
 .pb-4 {
   padding-bottom: 2rem !important; }
@@ -173,29 +170,24 @@
   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important; }
 
 @media (min-width: 576px) {
-  .flex-sm-row {
-    flex-direction: row !important; }
-  .align-items-sm-start {
-    align-items: flex-start !important; }
   .mx-sm-auto {
     margin-right: auto !important;
     margin-left: auto !important; }
   .mt-sm-5 {
-    margin-top: 3rem !important; }
+    margin-top: 4rem !important; }
   .mt-sm-6 {
-    margin-top: 6rem !important; }
+    margin-top: 8rem !important; }
   .me-sm-4 {
     margin-right: 2rem !important; }
   .mb-sm-0 {
     margin-bottom: 0 !important; }
   .mb-sm-4 {
     margin-bottom: 2rem !important; }
-  .py-sm-0 {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important; }
+  .mb-sm-6 {
+    margin-bottom: 8rem !important; }
   .py-sm-6 {
-    padding-top: 6rem !important;
-    padding-bottom: 6rem !important; }
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important; }
   .text-sm-center {
     text-align: center !important; } }
 
@@ -212,18 +204,18 @@
     margin-right: 0 !important;
     margin-left: 0 !important; }
   .my-md-5 {
-    margin-top: 3rem !important;
-    margin-bottom: 3rem !important; }
+    margin-top: 4rem !important;
+    margin-bottom: 4rem !important; }
   .mt-md-0 {
     margin-top: 0 !important; }
   .mt-md-5 {
-    margin-top: 3rem !important; }
+    margin-top: 4rem !important; }
   .mb-md-0 {
     margin-bottom: 0 !important; }
   .mb-md-5 {
-    margin-bottom: 3rem !important; }
+    margin-bottom: 4rem !important; }
   .mb-md-6 {
-    margin-bottom: 6rem !important; }
+    margin-bottom: 8rem !important; }
   .px-md-0 {
     padding-right: 0 !important;
     padding-left: 0 !important; }
@@ -237,16 +229,14 @@
     padding-top: 2rem !important;
     padding-bottom: 2rem !important; }
   .py-md-5 {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important; }
-  .pt-md-4 {
-    padding-top: 2rem !important; }
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important; }
+  .pt-md-5 {
+    padding-top: 4rem !important; }
   .pe-md-6 {
-    padding-right: 6rem !important; }
+    padding-right: 8rem !important; }
   .pb-md-5 {
-    padding-bottom: 3rem !important; }
-  .ps-md-6 {
-    padding-left: 6rem !important; }
+    padding-bottom: 4rem !important; }
   .text-md-start {
     text-align: left !important; }
   .text-md-end {
@@ -265,61 +255,48 @@
     justify-content: flex-end !important; }
   .align-items-lg-center {
     align-items: center !important; }
+  .m-lg-0 {
+    margin: 0 !important; }
   .mx-lg-0 {
     margin-right: 0 !important;
     margin-left: 0 !important; }
-  .my-lg-5 {
-    margin-top: 3rem !important;
-    margin-bottom: 3rem !important; }
+  .my-lg-6 {
+    margin-top: 8rem !important;
+    margin-bottom: 8rem !important; }
   .mb-lg-6 {
-    margin-bottom: 6rem !important; }
+    margin-bottom: 8rem !important; }
   .p-lg-5 {
-    padding: 3rem !important; }
+    padding: 4rem !important; }
   .px-lg-5 {
-    padding-right: 3rem !important;
-    padding-left: 3rem !important; }
-  .py-lg-4 {
-    padding-top: 2rem !important;
-    padding-bottom: 2rem !important; }
-  .py-lg-5 {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important; }
+    padding-right: 4rem !important;
+    padding-left: 4rem !important; }
   .py-lg-6 {
-    padding-top: 6rem !important;
-    padding-bottom: 6rem !important; }
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important; }
   .pt-lg-0 {
     padding-top: 0 !important; }
-  .pt-lg-6 {
-    padding-top: 6rem !important; }
-  .pe-lg-0 {
-    padding-right: 0 !important; }
   .pe-lg-3 {
     padding-right: 1rem !important; }
   .pb-lg-6 {
-    padding-bottom: 6rem !important; }
-  .ps-lg-5 {
-    padding-left: 3rem !important; }
+    padding-bottom: 8rem !important; }
   .text-lg-start {
     text-align: left !important; } }
 
 @media (min-width: 1200px) {
-  .d-xl-none {
-    display: none !important; }
+  .my-xl-6 {
+    margin-top: 8rem !important;
+    margin-bottom: 8rem !important; }
   .px-xl-0 {
     padding-right: 0 !important;
     padding-left: 0 !important; }
   .px-xl-6 {
-    padding-right: 6rem !important;
-    padding-left: 6rem !important; }
-  .ps-xl-6 {
-    padding-left: 6rem !important; } }
+    padding-right: 8rem !important;
+    padding-left: 8rem !important; } }
 
 @media (min-width: 1400px) {
-  .d-xxl-block {
-    display: block !important; }
   .px-xxl-6 {
-    padding-right: 6rem !important;
-    padding-left: 6rem !important; } }
+    padding-right: 8rem !important;
+    padding-left: 8rem !important; } }
 
 .btn {
   display: inline-block;
@@ -492,6 +469,9 @@
     padding-left: calc(var(--bs-gutter-x) * .5);
     margin-top: var(--bs-gutter-y); }
 
+.col {
+  flex: 1 0 0%; }
+
 .col-6 {
   flex: 0 0 auto;
   width: 50%; }
@@ -554,18 +534,9 @@
 @media (min-width: 992px) {
   .col-lg {
     flex: 1 0 0%; }
-  .col-lg-4 {
-    flex: 0 0 auto;
-    width: 33.33333%; }
-  .col-lg-6 {
-    flex: 0 0 auto;
-    width: 50%; }
   .col-lg-8 {
     flex: 0 0 auto;
     width: 66.66667%; }
-  .col-lg-9 {
-    flex: 0 0 auto;
-    width: 75%; }
   .col-lg-10 {
     flex: 0 0 auto;
     width: 83.33333%; }
@@ -573,38 +544,30 @@
     --bs-gutter-x: 1rem; }
   .g-lg-3 {
     --bs-gutter-y: 1rem; }
+  .g-lg-4 {
+    --bs-gutter-x: 2rem; }
+  .g-lg-4 {
+    --bs-gutter-y: 2rem; }
   .g-lg-5 {
-    --bs-gutter-x: 3rem; }
+    --bs-gutter-x: 4rem; }
   .g-lg-5 {
-    --bs-gutter-y: 3rem; } }
+    --bs-gutter-y: 4rem; } }
 
 @media (min-width: 1200px) {
-  .col-xl-3 {
-    flex: 0 0 auto;
-    width: 25%; }
   .col-xl-5 {
     flex: 0 0 auto;
     width: 41.66667%; }
   .col-xl-6 {
     flex: 0 0 auto;
     width: 50%; }
-  .col-xl-7 {
-    flex: 0 0 auto;
-    width: 58.33333%; }
   .col-xl-9 {
     flex: 0 0 auto;
     width: 75%; } }
 
 @media (min-width: 1400px) {
-  .col-xxl-4 {
-    flex: 0 0 auto;
-    width: 33.33333%; }
   .col-xxl-5 {
     flex: 0 0 auto;
     width: 41.66667%; }
-  .col-xxl-6 {
-    flex: 0 0 auto;
-    width: 50%; }
   .col-xxl-8 {
     flex: 0 0 auto;
     width: 66.66667%; }
@@ -1105,24 +1068,24 @@ progress {
   border-radius: 0; }
 
 .btn-primary {
-  background-color: #0F768A;
-  border-color: #0F768A; }
+  background-color: #181B1B;
+  border-color: #181B1B; }
 
 .btn-primary:hover {
   background-color: #0C5A6A;
   border-color: #0C5A6A; }
 
 .btn-outline-secondary {
-  color: #0F768A;
-  border-color: #149CB8; }
+  color: #383E3E;
+  border-color: #181B1B; }
 
 .btn-outline-secondary:hover {
-  color: #0C5A6A;
+  color: #181B1B;
   background-color: #F7F7FA;
   border-color: #0C5A6A; }
 
 .card-body {
-  padding: 2rem 0; }
+  padding: 2rem 0 0 0; }
 
 .card a:hover {
   color: #0c6374; }
@@ -1167,27 +1130,14 @@ progress {
 .social-links {
   margin-top: 2rem; }
 
-.bg-gradient-dark {
-  background: #181B1B;
-  background: linear-gradient(to bottom, #181B1B 0%, #181B1B 50%, #ffffff 50%, #ffffff 100%); }
-
-.bg-gradient-portfolio-icons {
-  background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 45.1%, #ffffff 45.1%, #ffffff 100%); }
-
 .bg-portfolio-card-enrollment {
   background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-card-plexus-enrollment.jpg") center/cover no-repeat; }
 
-.bg-portfolio-card-design-system {
+.bg-portfolio-card-design-system, .bg-portfolio-card-ucd {
   background: #F7F7FA; }
 
 .bg-portfolio-card-shop {
   background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-card-plexus-shop.jpg") center/cover no-repeat; }
-
-.bg-portfolio-card-ucd {
-  background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-card-plexus-ucd.png") center/cover no-repeat; }
-
-.bg-topo-blue {
-  background: url("https://shcaudill.mo.cloudinary.net/images/bg-topo-blue.svg") top left/100% no-repeat; }
 
 .bg-portfolio {
   background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-hero.jpg") center/cover no-repeat;
@@ -1205,9 +1155,6 @@ progress {
 
 .bg-portfolio-design-system {
   background: #c2eaf2; }
-
-.iphone-screen {
-  max-width: 350px; }
 
 .modal-header {
   padding: 1rem 2rem !important; }
@@ -1280,10 +1227,6 @@ body {
     padding-right: 1rem; }
   .navbar-brand {
     margin-left: .5rem; }
-  .bg-topo-blue {
-    background: url("https://shcaudill.mo.cloudinary.net/images/bg-topo-blue.svg") top left/66% no-repeat; }
-  .bg-gradient-portfolio-icons {
-    background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 33%, #ffffff 33%, #ffffff 100%); }
   .bg-portfolio-screens-enrollment {
     background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-plexus-enrollment-screens-hero.jpg") left/cover no-repeat; }
   .bg-portfolio-screens-enrollment-social {
@@ -1296,10 +1239,6 @@ body {
 @media (min-width: 992px) {
   .navbar-brand {
     margin-left: .5rem; }
-  .bg-topo-blue {
-    background: url("https://shcaudill.mo.cloudinary.net/images/bg-topo-blue.svg") top left/50% no-repeat; }
-  .bg-gradient-portfolio-icons {
-    background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 38%, #ffffff 38%, #ffffff 100%); }
   .bg-portfolio, .bg-portfolio-enrollment {
     min-height: 500px; } }
 

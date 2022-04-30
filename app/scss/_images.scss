@@ -11,14 +11,11 @@
 }
 
 // -- CARDS -- //
-.bg-portfolio-card-design-system{
+.bg-portfolio-card-design-system, .bg-portfolio-card-ucd{
   background: $gray-100;
 }
 .bg-portfolio-card-shop{
   background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-card-plexus-shop.jpg") center/cover no-repeat;
-}
-.bg-portfolio-card-ucd{
-  background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-card-plexus-ucd.png") center/cover no-repeat;
 }
 
 // -- HEROS -- //
@@ -53,7 +50,5 @@
 .icon-circles{
   max-width: 200px;
 }
-.iphone-screen{
-  max-width: 350px;
-}
+
 

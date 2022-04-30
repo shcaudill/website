@@ -27,6 +27,8 @@ purgecss --css app/css/custom.css --content app/index.html "app/**/*.html" --out
 
 ## Updates
 
+**4/30/22:** Changed homepage and portfolio layouts, for the better, of course.
+
 **4/26/22:** Finished with the second case study. Removed JSDelivr CSS link, minified!
 
 **4/18/22:** Been working on a case study, almost finished with the first.
