@@ -29,7 +29,7 @@ body{
     background: linear-gradient(to bottom, rgba(255,0,0,0) 0%, rgba(255,0,0,0) 33%, $white 33%, $white 100%);
   }
   .bg-portfolio-screens-enrollment{
-    background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-plexus-enrollment-screens-hero.jpg") left/cover no-repeat;
+    background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-card-plexus-enrollment.png") left bottom/40% no-repeat, #c3f2c2;
   }
   .bg-portfolio-screens-enrollment-social{
     background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-plexus-enrollment-social-hero.jpg") center/cover no-repeat;
@@ -39,6 +39,9 @@ body{
   }
   .bg-portfolio-screens-enrollment-upgrade{
     background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-plexus-enrollment-upgrade-hero.jpg") center/cover no-repeat;
+  }
+  .bg-portfolio-screens-shop{
+    background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-card-plexus-shop.png") left bottom/30% no-repeat, #c2eaf2;
   }
 }
 
