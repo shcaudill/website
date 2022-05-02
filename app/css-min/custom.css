@@ -51,9 +51,6 @@
   margin-top: 4rem !important;
   margin-bottom: 4rem !important; }
 
-.mt-2 {
-  margin-top: 0.5rem !important; }
-
 .mt-3 {
   margin-top: 1rem !important; }
 
@@ -269,6 +266,8 @@
     text-align: left !important; } }
 
 @media (min-width: 1200px) {
+  .d-xl-block {
+    display: block !important; }
   .my-xl-6 {
     margin-top: 8rem !important;
     margin-bottom: 8rem !important; }
@@ -991,7 +990,7 @@ progress {
   margin-top: 2rem; }
 
 .bg-portfolio-card-enrollment {
-  background: url("/images/bg-portfolio-card-plexus-enrollment.png") left bottom/70% no-repeat, #c3f2c2; }
+  background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-card-plexus-enrollment.png") left bottom/70% no-repeat, #c3f2c2; }
 
 .bg-portfolio-card-design-system {
   background: #F7F7FA; }
@@ -1072,7 +1071,7 @@ body {
   .navbar-brand {
     margin-left: .5rem; }
   .bg-portfolio-screens-enrollment {
-    background: url("/images/bg-portfolio-card-plexus-enrollment.png") left bottom/40% no-repeat, #c3f2c2; }
+    background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-card-plexus-enrollment.png") left bottom/40% no-repeat, #c3f2c2; }
   .bg-portfolio-screens-enrollment-social {
     background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-plexus-enrollment-social-hero.jpg") center/cover no-repeat; }
   .bg-portfolio-screens-enrollment-shop {
@@ -1080,7 +1079,7 @@ body {
   .bg-portfolio-screens-enrollment-upgrade {
     background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-plexus-enrollment-upgrade-hero.jpg") center/cover no-repeat; }
   .bg-portfolio-screens-shop {
-    background: url("/images/bg-portfolio-card-plexus-shop.png") left bottom/30% no-repeat, #c2eaf2; } }
+    background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-card-plexus-shop.png") left bottom/30% no-repeat, #c2eaf2; } }
 
 @media (min-width: 992px) {
   .navbar-brand {
