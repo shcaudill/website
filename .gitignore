@@ -3,6 +3,11 @@ app/portfolio/plexus-design-system/
 app/portfolio/plexus-digital-strategy/
 app/portfolio/plexus-enrollment-redesign/
 app/portfolio/plexus-user-centered-design-strategy/
+app/images/
+
+*.jpg
+*.png
+*.svg
 
 # Logs
 logs
