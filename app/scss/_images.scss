@@ -16,8 +16,12 @@
 }
 
 // -- HEROS -- //
-.bg-portfolio{
-  background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-hero.jpg") center/cover no-repeat;
+.bg-experience{
+  background: url("/images/bg-experience-hero.jpg") center/cover no-repeat;
+  min-height: 400px;
+}
+.bg-about{
+  background: url("/images/bg-about-hero.jpg") right/cover no-repeat;
   min-height: 400px;
 }
 .bg-portfolio-enrollment{
@@ -30,13 +34,26 @@
 .bg-portfolio-screens-enrollment-social{
   background: #ffffff
 }
-.bg-portfolio-design-system, .bg-portfolio-screens-shop{
+.bg-portfolio-design-system, .bg-portfolio-screens-shop, .bg-portfolio, .bg-portfolio-container{
   background: #c2eaf2;
 }
 
 // -- MISC -- //
 .icon-circles{
   max-width: 200px;
+}
+.logo-blue{
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.logo-ds{
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
 }
 
 

@@ -13,7 +13,12 @@
   border-color: $blue-700;
 }
 .btn-secondary{
-  color: $white;  
+  color: $dark;
+  background-color: $light;
+}
+.btn-secondary:hover{
+  color: $dark;
+  background-color: $blue-300;
 }
 .btn-outline-secondary {
   color: $secondary;

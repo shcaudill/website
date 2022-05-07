@@ -25,6 +25,9 @@
 .justify-content-center {
   justify-content: center !important; }
 
+.align-items-end {
+  align-items: flex-end !important; }
+
 .align-items-center {
   align-items: center !important; }
 
@@ -60,6 +63,9 @@
 .mt-5 {
   margin-top: 4rem !important; }
 
+.me-0 {
+  margin-right: 0 !important; }
+
 .me-2 {
   margin-right: 0.5rem !important; }
 
@@ -87,11 +93,11 @@
 .mb-5 {
   margin-bottom: 4rem !important; }
 
+.mb-6 {
+  margin-bottom: 8rem !important; }
+
 .ms-1 {
   margin-left: 0.25rem !important; }
-
-.ms-3 {
-  margin-left: 1rem !important; }
 
 .p-0 {
   padding: 0 !important; }
@@ -99,10 +105,6 @@
 .px-0 {
   padding-right: 0 !important;
   padding-left: 0 !important; }
-
-.px-2 {
-  padding-right: 0.5rem !important;
-  padding-left: 0.5rem !important; }
 
 .px-3 {
   padding-right: 1rem !important;
@@ -120,14 +122,11 @@
   padding-top: 4rem !important;
   padding-bottom: 4rem !important; }
 
-.pt-6 {
-  padding-top: 8rem !important; }
+.pt-5 {
+  padding-top: 4rem !important; }
 
 .pb-4 {
   padding-bottom: 2rem !important; }
-
-.ps-2 {
-  padding-left: 0.5rem !important; }
 
 .text-center {
   text-align: center !important; }
@@ -164,21 +163,25 @@
   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important; }
 
 @media (min-width: 576px) {
-  .mt-sm-5 {
-    margin-top: 4rem !important; }
+  .d-sm-inline {
+    display: inline !important; }
+  .d-sm-none {
+    display: none !important; }
   .mt-sm-6 {
     margin-top: 8rem !important; }
   .me-sm-4 {
     margin-right: 2rem !important; }
   .mb-sm-0 {
     margin-bottom: 0 !important; }
-  .mb-sm-4 {
-    margin-bottom: 2rem !important; }
+  .mb-sm-5 {
+    margin-bottom: 4rem !important; }
   .mb-sm-6 {
     margin-bottom: 8rem !important; }
   .py-sm-6 {
     padding-top: 8rem !important;
-    padding-bottom: 8rem !important; } }
+    padding-bottom: 8rem !important; }
+  .pt-sm-6 {
+    padding-top: 8rem !important; } }
 
 @media (min-width: 768px) {
   .d-md-block {
@@ -246,6 +249,8 @@
   .my-lg-6 {
     margin-top: 8rem !important;
     margin-bottom: 8rem !important; }
+  .mb-lg-0 {
+    margin-bottom: 0 !important; }
   .mb-lg-6 {
     margin-bottom: 8rem !important; }
   .p-lg-5 {
@@ -258,8 +263,6 @@
     padding-bottom: 8rem !important; }
   .pt-lg-0 {
     padding-top: 0 !important; }
-  .pe-lg-3 {
-    padding-right: 1rem !important; }
   .pb-lg-6 {
     padding-bottom: 8rem !important; }
   .text-lg-start {
@@ -274,11 +277,6 @@
   .px-xl-0 {
     padding-right: 0 !important;
     padding-left: 0 !important; } }
-
-@media (min-width: 1400px) {
-  .px-xxl-6 {
-    padding-right: 8rem !important;
-    padding-left: 8rem !important; } }
 
 .btn {
   display: inline-block;
@@ -495,18 +493,15 @@
     width: 100%; } }
 
 @media (min-width: 992px) {
-  .col-lg {
-    flex: 1 0 0%; }
-  .col-lg-8 {
+  .col-lg-3 {
     flex: 0 0 auto;
-    width: 66.66667%; }
+    width: 25%; }
+  .col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333%; }
   .col-lg-10 {
     flex: 0 0 auto;
     width: 83.33333%; }
-  .g-lg-3 {
-    --bs-gutter-x: 1rem; }
-  .g-lg-3 {
-    --bs-gutter-y: 1rem; }
   .g-lg-4 {
     --bs-gutter-x: 2rem; }
   .g-lg-4 {
@@ -517,12 +512,12 @@
     --bs-gutter-y: 4rem; } }
 
 @media (min-width: 1200px) {
+  .col-xl-3 {
+    flex: 0 0 auto;
+    width: 25%; }
   .col-xl-5 {
     flex: 0 0 auto;
     width: 41.66667%; }
-  .col-xl-6 {
-    flex: 0 0 auto;
-    width: 50%; }
   .col-xl-9 {
     flex: 0 0 auto;
     width: 75%; } }
@@ -724,7 +719,7 @@ body {
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   font-family: "Merriweather", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 500;
   line-height: 1.5; }
@@ -924,6 +919,14 @@ progress {
   font-size: 1.25rem;
   font-weight: 300; }
 
+.display-1 {
+  font-size: calc(1.625rem + 4.5vw);
+  font-weight: 500;
+  line-height: 1.5; }
+  @media (min-width: 1200px) {
+    .display-1 {
+      font-size: 5rem; } }
+
 .display-5 {
   font-size: calc(1.425rem + 2.1vw);
   font-weight: 500;
@@ -931,6 +934,10 @@ progress {
   @media (min-width: 1200px) {
     .display-5 {
       font-size: 3rem; } }
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none; }
 
 .btn {
   min-width: 10rem;
@@ -945,6 +952,14 @@ progress {
 .btn-primary:hover {
   background-color: #0C5A6A;
   border-color: #0C5A6A; }
+
+.btn-secondary {
+  color: #181B1B;
+  background-color: #F7F7FA; }
+
+.btn-secondary:hover {
+  color: #181B1B;
+  background-color: #A3E8F5; }
 
 .card-body {
   padding: 2rem 0 0 0; }
@@ -983,11 +998,25 @@ progress {
 .divider-light {
   border-top: 1px solid #A3E8F5; }
 
+p.divider, h4.divider, .divider.h4 {
+  display: flex;
+  align-items: center; }
+
+p.divider::after, h4.divider::after, .divider.h4::after {
+  content: '';
+  flex: 1;
+  margin-left: 1rem;
+  height: 1px;
+  background-color: #A3E8F5; }
+
 .divider-dark {
   border-top: 1px solid #149CB8; }
 
 .social-links {
   margin-top: 2rem; }
+
+.list-unstyled {
+  line-height: 2rem; }
 
 .bg-portfolio-card-enrollment {
   background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-card-plexus-enrollment.png") left bottom/70% no-repeat, #c3f2c2; }
@@ -995,8 +1024,12 @@ progress {
 .bg-portfolio-card-design-system {
   background: #F7F7FA; }
 
-.bg-portfolio {
-  background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-hero.jpg") center/cover no-repeat;
+.bg-experience {
+  background: url("/images/bg-experience-hero.jpg") center/cover no-repeat;
+  min-height: 400px; }
+
+.bg-about {
+  background: url("/images/bg-about-hero.jpg") right/cover no-repeat;
   min-height: 400px; }
 
 .bg-portfolio-enrollment {
@@ -1009,24 +1042,41 @@ progress {
 .bg-portfolio-screens-enrollment-social {
   background: #ffffff; }
 
-.bg-portfolio-design-system, .bg-portfolio-screens-shop {
+.bg-portfolio-design-system, .bg-portfolio-screens-shop, .bg-portfolio, .bg-portfolio-container {
   background: #c2eaf2; }
+
+.logo-blue {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem; }
+
+.logo-ds {
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem; }
 
 .fixed-top {
   position: fixed !important; }
 
 .navbar {
-  padding: 1rem 0; }
-
-.nav-link {
-  display: block;
-  padding: 0.5rem .75rem;
-  color: #383E3E !important; }
+  padding: 1rem 1.25rem 1rem 2rem; }
 
 .navbar-light .navbar-brand {
   color: #383E3E;
   font-weight: 400;
   font-style: oblique; }
+
+.nav-link {
+  display: block;
+  color: #383E3E !important;
+  padding: 0 !important;
+  margin-bottom: 2rem; }
+
+.navbar-toggler {
+  padding: .25rem .5rem; }
 
 .navbar-brand {
   font-family: "Merriweather", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
@@ -1038,6 +1088,11 @@ progress {
 h2, .h2, h4, .h4 {
   font-family: "Roboto Condensed", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 300; }
+
+.intro {
+  font-family: "Roboto Condensed", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 300;
+  font-size: calc(1.325rem + 0.9vw); }
 
 .lead {
   margin: 1.5rem 0; }
@@ -1054,6 +1109,14 @@ ul {
   padding-left: 1.2rem;
   margin-bottom: 2rem; }
 
+.emoji {
+  font-size: 1.5rem;
+  margin-right: 8px;
+  margin-bottom: 8px; }
+
+.emoji-list li {
+  display: flex; }
+
 html,
 body {
   overflow-x: hidden;
@@ -1065,11 +1128,6 @@ body {
 @media (min-width: 768px) {
   .ampersand {
     margin-left: 0px; }
-  .navbar {
-    padding-left: 1rem;
-    padding-right: 1rem; }
-  .navbar-brand {
-    margin-left: .5rem; }
   .bg-portfolio-screens-enrollment {
     background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-card-plexus-enrollment.png") left bottom/40% no-repeat, #c3f2c2; }
   .bg-portfolio-screens-enrollment-social {
@@ -1082,11 +1140,16 @@ body {
     background: url("https://shcaudill.mo.cloudinary.net/images/bg-portfolio-card-plexus-shop.png") left bottom/30% no-repeat, #c2eaf2; } }
 
 @media (min-width: 992px) {
-  .navbar-brand {
-    margin-left: .5rem; }
-  .bg-portfolio, .bg-portfolio-enrollment {
-    min-height: 500px; } }
+  .navbar {
+    padding: 1rem 2rem; }
+  .nav-link {
+    margin-left: 2rem;
+    margin-bottom: 0; } }
 
 @media (min-width: 1200px) {
   .ampersand {
-    margin-left: -48px; } }
+    margin-left: -48px; }
+  .intro, .intro {
+    font-size: 2rem; }
+  .bg-portfolio-container, .bg-about, .bg-experience, .bg-portfolio-enrollment {
+    min-height: 500px; } }

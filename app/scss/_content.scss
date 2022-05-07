@@ -6,6 +6,17 @@
 .divider-light{
   border-top: 1px solid $blueLight;
 }
+p.divider, h4.divider {
+  display: flex;
+  align-items: center;
+}
+p.divider::after, h4.divider::after {
+  content: '';
+  flex: 1;
+  margin-left: 1rem;
+  height: 1px;
+  background-color: $blueLight;
+}
 .divider-dark{
   border-top: 1px solid $blue-500;
 }
@@ -14,4 +25,7 @@
 }
 .social-links{
   margin-top: 2rem;
+}
+.list-unstyled{
+  line-height: 2rem;
 }
