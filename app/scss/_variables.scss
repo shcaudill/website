@@ -105,22 +105,23 @@ $link-hover-color:                        $blue-800;
 // Typography
 $body-color:                $gray-700;
 
-$font-family-sans-serif: "Roboto Condensed", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$font-family-serif: "Merriweather", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-sans-serif: "Roboto Condensed", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 
 $font-weight-normal:    300;
 $font-weight-bold:      400;
 
-$font-size-base:              1rem !default; // Default, but needs to be defined
-$h4-font-size:   $font-size-base * 1.25;
-
-$headings-margin-bottom:   1rem;
-$headings-font-family:     $font-family-serif;
-$headings-line-height:     1.5;
-
-$display-font-weight: 500;
-
+$font-size-base:              1.188rem;
+$line-height-base:            1.6;
 $paragraph-margin-bottom:   2rem;
+
+$headings-line-height:     1.4;
+$headings-font-weight:     700;
+$h4-font-size:   $font-size-base * 1.25;
+$headings-margin-bottom:   1rem;
+
+$display-font-weight: 700;
+$display-line-height: 1.3;
+
 
 // Borders
 $border-radius:               0;
