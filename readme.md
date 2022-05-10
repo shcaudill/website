@@ -27,6 +27,8 @@ purgecss --css app/css/custom.css --content app/index.html "app/**/*.html" --out
 
 ## Updates
 
+**5/9/22:** Final round of content edits! (for now...)
+
 **5/8/22:** Added Nationwide designs to portfolio. Changed and updated fonts.
 
 **5/7/22:** Finished Experience and About page, many edits, fixes, and updates. 

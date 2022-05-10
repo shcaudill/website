@@ -1,40 +1,32 @@
-// -- CARDS -- //
-.bg-portfolio-card-enrollment{
-    background: url("/images/bg-portfolio-card-plexus-enrollment.png") left bottom/70% no-repeat, #c3f2c2;
-  }
-.bg-portfolio-card-design-system, .bg-portfolio-card-ucd{
-  background: $gray-100;
-}
-
 // -- HEROS -- //
 .bg-hero-experience{
-  background: url("/images/experience-hero-bg.jpg") center/cover no-repeat;
+  background: url("https://shcaudill.mo.cloudinary.net/images/experience-hero-bg.jpg") center/cover no-repeat;
   min-height: 400px;
 }
 .bg-hero-about{
-  background: url("/images/about-hero-bg.jpg") right/cover no-repeat;
+  background: url("https://shcaudill.mo.cloudinary.net/images/about-hero-bg.jpg") right/cover no-repeat;
   min-height: 400px;
 }
 .bg-hero-enrollment{
-  background: url("/images/portfolio-plexus-enrollment-hero-bg.jpg") center/cover no-repeat;
+  background: url("https://shcaudill.mo.cloudinary.net/images/portfolio-plexus-enrollment-hero-bg.jpg") center/cover no-repeat;
   min-height: 400px;
 }
-.bg-portfolio-enrollment{
-  background: #c4f1c2
+.bg-portfolio-enrollment, .bg-portfolio-enrollment-outcomes{
+  background: #d3f2d3;
 }
 .bg-portfolio-screens-enrollment-social{
   background: #ffffff
 }
 .bg-portfolio-design-system, .bg-portfolio-shop, .bg-portfolio, .bg-portfolio-container{
-  background: #c2eaf2;
+  background: $blueLight;
 }
 .bg-portfolio-nationwide, .bg-portfolio-nationwide-container{
-  background: #c2e0f2;
+  background: #e6e4f2;
 }
 
 // -- MISC -- //
-.icon-circles{
-  max-width: 200px;
+.bg-gradient-light{
+  background: $blueLight;
 }
 .logo-blue{
   min-height: 70px;

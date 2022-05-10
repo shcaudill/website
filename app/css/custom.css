@@ -204,7 +204,7 @@
   border-color: #181B1B !important; }
 
 .border-blueLight {
-  border-color: #A3E8F5 !important; }
+  border-color: #d3e7f2 !important; }
 
 .border-blueDark {
   border-color: #083B45 !important; }
@@ -3175,32 +3175,32 @@
 
 .btn-blueLight {
   color: #000;
-  background-color: #A3E8F5;
-  border-color: #A3E8F5;
+  background-color: #d3e7f2;
+  border-color: #d3e7f2;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); }
   .btn-blueLight:hover {
     color: #000;
-    background-color: #b1ebf7;
-    border-color: #aceaf6; }
+    background-color: #daebf4;
+    border-color: #d7e9f3; }
   .btn-check:focus + .btn-blueLight, .btn-blueLight:focus {
     color: #000;
-    background-color: #b1ebf7;
-    border-color: #aceaf6;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.25rem rgba(139, 197, 208, 0.5); }
+    background-color: #daebf4;
+    border-color: #d7e9f3;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.25rem rgba(179, 196, 206, 0.5); }
   .btn-check:checked + .btn-blueLight,
   .btn-check:active + .btn-blueLight, .btn-blueLight:active, .btn-blueLight.active,
   .show > .btn-blueLight.dropdown-toggle {
     color: #000;
-    background-color: #b5edf7;
-    border-color: #aceaf6; }
+    background-color: #dcecf5;
+    border-color: #d7e9f3; }
     .btn-check:checked + .btn-blueLight:focus,
     .btn-check:active + .btn-blueLight:focus, .btn-blueLight:active:focus, .btn-blueLight.active:focus,
     .show > .btn-blueLight.dropdown-toggle:focus {
-      box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.25rem rgba(139, 197, 208, 0.5); }
+      box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.25rem rgba(179, 196, 206, 0.5); }
   .btn-blueLight:disabled, .btn-blueLight.disabled {
     color: #000;
-    background-color: #A3E8F5;
-    border-color: #A3E8F5; }
+    background-color: #d3e7f2;
+    border-color: #d3e7f2; }
 
 .btn-blueDark {
   color: #ffffff;
@@ -3387,24 +3387,24 @@
     background-color: transparent; }
 
 .btn-outline-blueLight {
-  color: #A3E8F5;
-  border-color: #A3E8F5; }
+  color: #d3e7f2;
+  border-color: #d3e7f2; }
   .btn-outline-blueLight:hover {
     color: #000;
-    background-color: #A3E8F5;
-    border-color: #A3E8F5; }
+    background-color: #d3e7f2;
+    border-color: #d3e7f2; }
   .btn-check:focus + .btn-outline-blueLight, .btn-outline-blueLight:focus {
-    box-shadow: 0 0 0 0.25rem rgba(163, 232, 245, 0.5); }
+    box-shadow: 0 0 0 0.25rem rgba(211, 231, 242, 0.5); }
   .btn-check:checked + .btn-outline-blueLight,
   .btn-check:active + .btn-outline-blueLight, .btn-outline-blueLight:active, .btn-outline-blueLight.active, .btn-outline-blueLight.dropdown-toggle.show {
     color: #000;
-    background-color: #A3E8F5;
-    border-color: #A3E8F5; }
+    background-color: #d3e7f2;
+    border-color: #d3e7f2; }
     .btn-check:checked + .btn-outline-blueLight:focus,
     .btn-check:active + .btn-outline-blueLight:focus, .btn-outline-blueLight:active:focus, .btn-outline-blueLight.active:focus, .btn-outline-blueLight.dropdown-toggle.show:focus {
-      box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.25rem rgba(163, 232, 245, 0.5); }
+      box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.25rem rgba(211, 231, 242, 0.5); }
   .btn-outline-blueLight:disabled, .btn-outline-blueLight.disabled {
-    color: #A3E8F5;
+    color: #d3e7f2;
     background-color: transparent; }
 
 .btn-outline-blueDark {
@@ -3692,9 +3692,9 @@
     color: #0c0e0e; }
 
 .link-blueLight {
-  color: #A3E8F5; }
+  color: #d3e7f2; }
   .link-blueLight:hover, .link-blueLight:focus {
-    color: #d1f4fa; }
+    color: #e9f3f9; }
 
 .link-blueDark {
   color: #083B45; }
@@ -4701,9 +4701,9 @@
     color: #0c0e0e; }
 
 .link-blueLight {
-  color: #A3E8F5; }
+  color: #d3e7f2; }
   .link-blueLight:hover, .link-blueLight:focus {
-    color: #d1f4fa; }
+    color: #e9f3f9; }
 
 .link-blueDark {
   color: #083B45; }
@@ -6025,7 +6025,7 @@ progress {
   --bs-gray: #383E3E;
   --bs-grayDark: #242828;
   --bs-dark: #181B1B;
-  --bs-blueLight: #A3E8F5;
+  --bs-blueLight: #d3e7f2;
   --bs-blueDark: #083B45;
   --bs-white: #ffffff;
   --bs-primary-rgb: 15, 118, 138;
@@ -6034,7 +6034,7 @@ progress {
   --bs-gray-rgb: 56, 62, 62;
   --bs-grayDark-rgb: 36, 40, 40;
   --bs-dark-rgb: 24, 27, 27;
-  --bs-blueLight-rgb: 163, 232, 245;
+  --bs-blueLight-rgb: 211, 231, 242;
   --bs-blueDark-rgb: 8, 59, 69;
   --bs-white-rgb: 255, 255, 255;
   --bs-white-rgb: 255, 255, 255;
@@ -6191,7 +6191,8 @@ progress {
 
 .btn-outline-secondary {
   color: #383E3E;
-  border-color: #181B1B; }
+  border-color: #181B1B;
+  width: 100%; }
 
 .btn-outline-secondary:hover {
   color: #181B1B;
@@ -6227,14 +6228,6 @@ progress {
 .card:hover:after {
   opacity: 1; }
 
-.divider-light, .divider-dark, .divider-light-gray {
-  margin-top: .5rem;
-  margin-bottom: 1rem;
-  width: 5rem; }
-
-.divider-light {
-  border-top: 1px solid #A3E8F5; }
-
 p.divider, h4.divider, .divider.h4 {
   display: flex;
   align-items: center; }
@@ -6244,7 +6237,15 @@ p.divider::after, h4.divider::after, .divider.h4::after {
   flex: 1;
   margin-left: 1rem;
   height: 1px;
-  background-color: #A3E8F5; }
+  background-color: #d3e7f2; }
+
+.divider-light, .divider-dark, .divider-light-gray {
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+  width: 5rem; }
+
+.divider-light {
+  border-top: 1px solid #d3e7f2; }
 
 .divider-dark {
   border-top: 1px solid #149CB8; }
@@ -6265,38 +6266,32 @@ p.divider::after, h4.divider::after, .divider.h4::after {
   position: relative;
   bottom: -70px; }
 
-.bg-portfolio-card-enrollment {
-  background: url("/images/bg-portfolio-card-plexus-enrollment.png") left bottom/70% no-repeat, #c3f2c2; }
-
-.bg-portfolio-card-design-system, .bg-portfolio-card-ucd {
-  background: #F7F7FA; }
-
 .bg-hero-experience {
-  background: url("/images/experience-hero-bg.jpg") center/cover no-repeat;
+  background: url("https://shcaudill.mo.cloudinary.net/images/experience-hero-bg.jpg") center/cover no-repeat;
   min-height: 400px; }
 
 .bg-hero-about {
-  background: url("/images/about-hero-bg.jpg") right/cover no-repeat;
+  background: url("https://shcaudill.mo.cloudinary.net/images/about-hero-bg.jpg") right/cover no-repeat;
   min-height: 400px; }
 
 .bg-hero-enrollment {
-  background: url("/images/portfolio-plexus-enrollment-hero-bg.jpg") center/cover no-repeat;
+  background: url("https://shcaudill.mo.cloudinary.net/images/portfolio-plexus-enrollment-hero-bg.jpg") center/cover no-repeat;
   min-height: 400px; }
 
-.bg-portfolio-enrollment {
-  background: #c4f1c2; }
+.bg-portfolio-enrollment, .bg-portfolio-enrollment-outcomes {
+  background: #d3f2d3; }
 
 .bg-portfolio-screens-enrollment-social {
   background: #ffffff; }
 
 .bg-portfolio-design-system, .bg-portfolio-shop, .bg-portfolio, .bg-portfolio-container {
-  background: #c2eaf2; }
+  background: #d3e7f2; }
 
 .bg-portfolio-nationwide, .bg-portfolio-nationwide-container {
-  background: #c2e0f2; }
+  background: #e6e4f2; }
 
-.icon-circles {
-  max-width: 200px; }
+.bg-gradient-light {
+  background: #d3e7f2; }
 
 .logo-blue {
   min-height: 70px;
@@ -6375,7 +6370,7 @@ a.text-light:hover {
 ol,
 ul {
   padding-left: 1.2rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 2.5rem; }
 
 .emoji {
   font-size: 1.5rem;
@@ -6400,15 +6395,21 @@ body {
   .ampersand {
     margin-left: 0px; }
   .bg-portfolio-enrollment {
-    background: url("/images/portfolio-card-plexus-enrollment-bg.png") right bottom/30% no-repeat, #c3f2c2; }
+    background: url("https://shcaudill.mo.cloudinary.net/images/portfolio-card-plexus-enrollment-bg.png") right bottom/30% no-repeat, #d3f2d3; }
   .bg-portfolio-shop {
-    background: url("/images/portfolio-card-plexus-shop-bg.png") right bottom/25% no-repeat, #c2eaf2; }
+    background: url("https://shcaudill.mo.cloudinary.net/images/portfolio-card-plexus-shop-bg.png") right bottom/25% no-repeat, #d3e7f2; }
   .bg-portfolio-screens-enrollment-social {
-    background: url("/images/portfolio-plexus-enrollment-social-hero-bg.jpg") center/cover no-repeat; }
+    background: url("https://shcaudill.mo.cloudinary.net/images/portfolio-plexus-enrollment-social-hero-bg.jpg") center/cover no-repeat; }
   .bg-portfolio-screens-enrollment-shop {
-    background: url("/images/portfolio-plexus-enrollment-shop-hero-bg.jpg") center/cover no-repeat; }
+    background: url("https://shcaudill.mo.cloudinary.net/images/portfolio-plexus-enrollment-shop-hero-bg.jpg") center/cover no-repeat; }
   .bg-portfolio-screens-enrollment-upgrade {
-    background: url("/images/portfolio-plexus-enrollment-upgrade-hero-bg.jpg") center/cover no-repeat; } }
+    background: url("https://shcaudill.mo.cloudinary.net/images/portfolio-plexus-enrollment-upgrade-hero-bg.jpg") center/cover no-repeat; }
+  .bg-gradient-light {
+    background: linear-gradient(to bottom, #d3e7f2 0%, #d3e7f2 50%, #ffffff 50%, #ffffff 100%); }
+  .btn-outline-secondary {
+    color: #383E3E;
+    border-color: #181B1B;
+    width: auto; } }
 
 @media (min-width: 992px) {
   .navbar {
