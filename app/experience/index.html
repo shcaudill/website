@@ -14,7 +14,7 @@
   <meta property="og:title" content="Sean Caudill | My Experience" />
   <meta property="og:description" content="Work history, education, and skills of Sean Caudill, UX/UI and Digital Marketing leader." />
   <meta property="og:image" content="https://shcaudill.mo.cloudinary.net/images/sean-caudill-ux-experience-banner.jpg" />
-  <link href="/css-min/custom.css" rel="stylesheet">
+  <link href="/css/custom.css" rel="stylesheet">
   <link href="/css/offcanvas.css" rel="stylesheet">
   <link href="/css/modal.css" rel="stylesheet">
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -28,26 +28,57 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light" aria-label="Main navigation">
+  <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light" aria-label="Main navigation">
     <div class="container-fluid p-0">
       <a class="navbar-brand" href="/">Sean Caudill</a>
       <button class="navbar-toggler border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="navbar-collapse offcanvas-collapse d-flex flex-column flex-lg-row justify-content-lg-end text-center">
-        <ul class="navbar-nav pt-5 pt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="/experience/index.html">Experience</a>
+      <div class="navbar-collapse offcanvas-collapse d-flex flex-column flex-md-row justify-content-md-end">
+        <ul class="navbar-nav col-12 col-md-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link d-inline-block me-0" id="portfolioLink" href="/portfolio/index.html">Portfolio</a>
+            <span class="d-md-none emoji-offcanvas">&#x1F3A8;</span>
+            <a class="dropdown-toggle d-none d-md-inline-block" data-bs-toggle="dropdown" id="dropdownMenuReference" aria-expanded="false">
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+              <a class="dropdown-item" href="/portfolio/plexus-enrollment-redesign/index.html">
+                <li>Plexus Enrollment Redesign<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill mb-1 ms-1 text-grayLight" viewBox="0 0 16 16">
+                    <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
+                </li>
+              </a>
+              <a class="dropdown-item" href="/portfolio/plexus-design-system/index.html">
+                <li>Plexus Design System<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill mb-1 ms-1 text-grayLight" viewBox="0 0 16 16">
+                    <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
+                </li>
+              </a>
+              <a class="dropdown-item" href="/portfolio/nationwide-insurance-websites/index.html">
+                <li>Nationwide Website Designs</li>
+              </a>
+            </ul>
+          </li>
+          <li class="nav-item d-md-none">
+            <a class="nav-link subpage fw-light" href="/portfolio/plexus-enrollment-redesign/index.html">Plexus Enrollment Redesign<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill mb-1 ms-1 text-light" viewBox="0 0 16 16">
+                <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" /></a>
+          </li>
+          <li class="nav-item d-md-none">
+            <a class="nav-link subpage fw-light" href="/portfolio/plexus-design-system/index.html">Plexus Design System<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill mb-1 ms-1 text-light" viewBox="0 0 16 16">
+                <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" /></a>
+          </li>
+          <li class="nav-item d-md-none">
+            <a class="nav-link subpage fw-light" href="/portfolio/nationwide-insurance-websites/index.html">Nationwide Website Designs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/portfolio/index.html">Portfolio</a>
+            <a class="nav-link" href="/experience/index.html">Experience</a>
+            <span class="d-md-none emoji-offcanvas">&#x1F468;&#x1F3FC;&#x200D;&#x1F4BB;</span>
           </li>
           <li class="nav-item">
             <a class="nav-link me-0" href="/about/index.html">About Me</a>
+            <span class="d-md-none emoji-offcanvas">&#x1F3DC;</span>
           </li>
         </ul>
-        <div class="d-lg-none text-center">
-          <div class="mx-auto mt-3 mb-5 divider-light"></div>
+        <div class="col-12 d-md-none">
           <div class="social-links">
             <a href="mailto: shcaudill@gmail.com" target="_blank" class="text-white me-4 text-decoration-none">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="me-2 mb-1" viewBox="0 0 24 24">
@@ -79,7 +110,7 @@
       <div class="container">
         <div class="row d-flex justify-content-center">
           <div class="col-11 col-lg-10 col-xl-9 col-xxl-8">
-            <h1 class="display-5 mb-0">My Experience</h1>
+            <h1 class="mb-0">My Experience</h1>
           </div>
         </div>
       </div>
@@ -88,8 +119,10 @@
       <div class="container">
         <div class="row d-flex justify-content-center">
           <div class="col-11 col-lg-10 col-xl-9 col-xxl-8">
-            <h4 class="intro mb-4">I've had the opportunity to build, manage, and lead teams of highly talented and engaged individuals who are proud of their work and focused on professional development.</h4>
-            <p><strong>Jump to:</strong> <a href="#work-history" class="mx-2">Work History</a> | <a href="#skills" class="mx-2">Skills</a></p>
+            <h2 class="mb-5">Over a dozen years of combined experience in design, development, <br class="d-md-none"> and leadership.</h2>
+            <p class="mb-2"><b>Jump to:</b></p>
+            <p class="mb-2"><a href="#work-history">Work History</a></p>
+            <p class="mb-0"><a href="#skills">Skills</a></p>
           </div>
         </div>
     </section>
@@ -98,14 +131,11 @@
         <div class="row d-flex justify-content-center">
           <div class="col-11 col-lg-10 col-xl-9 col-xxl-8">
             <div class="row">
-              <div>
-                <h3>Work History</h3>
-                <p class="mb-5">I am the Sr. Manager, UX/UI at Plexus Worldwide with over a dozen years of combined experience designing, developing, and leading teams in user experience and digital marketing.</p>
-              </div>
+              <h3 class="mb-5">Work History</h3>
               <div class="col-12">
                 <div class="row d-flex align-items-center">
                   <div class="col-md-3">
-                    <img src="https://shcaudill.mo.cloudinary.net/images/logo-plexus-color.svg" class="mb-3" alt="Plexus Worldwide logo">
+                    <img src="https://shcaudill.mo.cloudinary.net/images/logo-plexus-color.svg" class="img-fluid mb-3" alt="Plexus Worldwide logo">
                   </div>
                   <div class="col-md-9">
                     <p class="divider mb-3">6/2017 - Current</p>
@@ -117,12 +147,12 @@
                     <p>1/2022 - Current</p>
                     <ul>
                       <li>Responsible for growth strategy, hiring, professional development, defining culture, and
-                        budgeting for a team consisting of UX/UI Design and Content Management groups.
+                        budgeting for a team consisting of UX/UI Design and Content <br class="d-none d-sm-inline-block d-lg-none">Management groups.
                       <li>Defining yearly strategic goals, projects, and initiatives for the team.
                       <li>Provide creative direction for digital and traditional product launches, Plexus Design
-                        System, website flow redesigns, and feature enhancements.
+                        System, website flow redesigns, and<br class="d-none d-lg-inline-block d-xl-none"> feature enhancements.
                       <li>Project owner for various digital transformation initiatives, working closely with executive
-                        leadership on defining business requirements, strategy, and workflow.
+                        leadership on defining business requirements, strategy, <br class="d-none d-xl-inline-block">and workflow.
                       <li>Developing an internal User Centered Design process that aligns with enterprise project
                         management and Agile scrum development.
                     </ul>
@@ -130,20 +160,20 @@
                     <p>8/2018 - 1/2022</p>
                     <ul>
                       <li>Responsible for hiring, professional development, defining culture, and budgeting for a
-                        team consisting of UX/UI Design and Content Management groups.
-                      <li>Presented designs, goals, and project progress and results to executive leadership.
+                        team consisting of UX/UI Design and Content <br class="d-none d-xl-inline-block">Management groups.
+                      <li>Presented designs, goals, and project progress and results to <br class="d-none d-xl-inline-block">executive leadership.
                       <li>Achieved user experience and business objectives through research, testing, and analytics
-                      <li>Executed design and content projects that increase conversion, revenue, and ROI.
+                      <li>Executed design and content projects that increase conversion, revenue, <br class="d-none d-xxl-inline-block">and ROI.
                       <li>Responsible for the management of domestic and international product catalog in our
-                        content management system (Contentful) including over 300 SKUs.
+                        content management system (Contentful) including over<br class="d-none d-sm-inline-block d-lg-none d-xl-inline-block"> 300 SKUs.
                     </ul>
                     <h4>UX/UI Designer</h4>
                     <p>6/2017 - 8/2018</p>
                     <ul class="mb-5">
-                      <li>Lead designer on e-commerce shop, subscribe, enrollment, and customer flows.
-                      <li>Designed and developed for Plexus’ public websites, portal, and interactive tools.
-                      <li>Created marketing and communications deliverables for various digital channels.
-                      <li>Advocated for UX/UI best practices such as data-driven design, testing, and iteration.
+                      <li>Lead designer on e-commerce shop, subscribe, enrollment, and <br class="d-none d-xl-inline-block">customer flows.
+                      <li>Designed and developed for Plexus’ public websites, portal, and <br class="d-none d-xl-inline-block">interactive tools.
+                      <li>Created marketing and communications deliverables for various <br class="d-none d-xl-inline-block">digital channels.
+                      <li>Advocated for UX/UI best practices such as data-driven design, testing, <br class="d-none d-xl-inline-block">and iteration.
                     </ul>
                   </div>
                 </div>
@@ -159,9 +189,9 @@
                   <div class="col-md-9 ">
                     <h4>Senior Web Designer/Developer</h4>
                     <ul class="mb-5">
-                      <li>Designed and developed websites for annual contests, events, and conferences.
+                      <li>Designed and developed websites for annual contests, events, <br class="d-none d-lg-inline-block">and conferences.
                       <li>Designed, built, and measured deliverables for marketing and communications campaigns.
-                      <li>Provided customer support through weekly service requests.
+                      <li>Provided customer support through weekly <br class="d-none d-sm-inline-block d-lg-none">service requests.
                     </ul>
                   </div>
                 </div>
@@ -193,8 +223,8 @@
                   <div class="col-md-9">
                     <h4>Graphic Designer & Web Developer</h4>
                     <ul class="mb-6">
-                      <li>Designed all digital creative projects for various clients in the hospitality industry.
-                      <li>Produced over 1,000 pieces of high quality print materials.
+                      <li>Designed all digital creative projects for various clients in the<br class="d-none d-xl-inline-block"> hospitality industry.
+                      <li>Produced over 1,000 pieces of high quality<br class="d-none d-sm-inline-block d-lg-none"> print materials.
                     </ul>
                   </div>
                 </div>
@@ -207,7 +237,7 @@
             <div class="row">
               <div>
                 <h3>Certifications</h3>
-                <p class="mb-5">I have obtained a pair of notable certifications as part of my professional development.</p>
+                <p class="mb-5">I have obtained a pair of notable certifications as part of my <br class="d-none d-md-inline-block d-lg-none">professional development.</p>
               </div>
               <div class="col-12">
                 <div class="row d-flex align-items-center">
@@ -245,7 +275,8 @@
             <div class="row">
               <div>
                 <h3>Education</h3>
-                <p class="mb-5">I began my undergraduate education in Nebraska studying Architectural Engineering. Searching for a change of scenery and to find my purpose, I transferred to Arizona. Soon after, I stumbled upon graphic and web design, a perfect outlet for my creativity energy, analytical way of thinking, and love of technology. At my first opportunity, I picked up an internship and began doing contract/freelance work. With proper direction and focus, I graduated with honors from Arizona State University.</p>
+                <p>I began my undergraduate education in Nebraska studying Architectural Engineering. I transferred to Arizona, in search of warmer weather and to find my purpose. Soon after, I stumbled upon graphic and web design, a perfect outlet for my creative energy, analytical way of thinking, and love of technology.</p>
+                <p class="mb-5">At my first opportunity, I picked up an internship and began doing contract/freelance work. Having proper direction and focus, I graduated with honors from Arizona State University.</p>
               </div>
               <div class="col-12">
                 <div class="row d-flex align-items-center">
@@ -322,7 +353,7 @@
                 <ul class="mb-0">
                   <li>Figma & Sketch</li>
                   <li>Adobe Creative Suite</li>
-                  <li>Bootstrap, Foundation, Material Design</li>
+                  <li>Bootstrap, Foundation, <br class="d-none d-md-inline-block d-lg-none">Material Design</li>
                   <li>HTML & CSS</li>
                 </ul>
               </div>
@@ -335,18 +366,18 @@
       <div class="container text-center">
         <div class="divider-light mb-5 mb-sm-6 w-100"></div>
         <div class="row">
-          <div class="col-12 col-lg-6 mb-5 mb-sm-6 mb-md-0">
+          <div class="col-12 col-lg-6 mb-5 mb-sm-6 mb-lg-0">
             <h3>My Work</h3>
             <div class="divider-dark mx-auto"></div>
-            <h4>I'm motivated to drive design strategy, <br>provide art direction and lead teams.</h4>
-            <p class="mb-0"><span class=" display-1">&#x1F3A8;</span></p>
+            <h5>I'm motivated to drive design strategy,<br class="d-none d-md-inline-block"> provide art direction, and lead teams.</h5>
+            <p class="mb-0 emoji-large">&#x1F3A8;</p>
             <a class="btn btn-primary mt-4" href="/portfolio/index.html" role="button">Portfolio</a>
           </div>
           <div class="col-12 col-lg-6">
             <h3>Outside of Work</h3>
             <div class="divider-dark mx-auto"></div>
-            <h4>I'm a passionate outdoor enthusiast looking for <br>the next adventure with my dog Max.</h4>
-            <p class="mb-0"><span class=" display-1">&#x1F3DC</span></p>
+            <h5>I'm a passionate outdoor enthusiast<br class="d-none d-md-inline-block d-lg-none d-xl-inline-block"> looking for the next adventure with my dog Max.</h5>
+            <p class="mb-0 emoji-large">&#x1F3DC;</p>
             <a class="btn btn-primary mt-4" href="/about/index.html" role="button">About Me</a>
           </div>
         </div>

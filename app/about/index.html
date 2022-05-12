@@ -14,7 +14,7 @@
   <meta property="og:title" content="Sean Caudill | About Me" />
   <meta property="og:description" content="About Sean Caudill, UX/UI and Digital Marketing leader." />
   <meta property="og:image" content="https://shcaudill.mo.cloudinary.net/images/sean-caudill-ux-about-banner.jpg" />
-  <link href="/css-min/custom.css" rel="stylesheet">
+  <link href="/css/custom.css" rel="stylesheet">
   <link href="/css/offcanvas.css" rel="stylesheet">
   <link href="/css/modal.css" rel="stylesheet">
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -28,26 +28,57 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light" aria-label="Main navigation">
+  <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light" aria-label="Main navigation">
     <div class="container-fluid p-0">
       <a class="navbar-brand" href="/">Sean Caudill</a>
       <button class="navbar-toggler border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="navbar-collapse offcanvas-collapse d-flex flex-column flex-lg-row justify-content-lg-end text-center">
-        <ul class="navbar-nav pt-5 pt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="/experience/index.html">Experience</a>
+      <div class="navbar-collapse offcanvas-collapse d-flex flex-column flex-md-row justify-content-md-end">
+        <ul class="navbar-nav col-12 col-md-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link d-inline-block me-0" id="portfolioLink" href="/portfolio/index.html">Portfolio</a>
+            <span class="d-md-none emoji-offcanvas">&#x1F3A8;</span>
+            <a class="dropdown-toggle d-none d-md-inline-block" data-bs-toggle="dropdown" id="dropdownMenuReference" aria-expanded="false">
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+              <a class="dropdown-item" href="/portfolio/plexus-enrollment-redesign/index.html">
+                <li>Plexus Enrollment Redesign<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill mb-1 ms-1 text-grayLight" viewBox="0 0 16 16">
+                    <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
+                </li>
+              </a>
+              <a class="dropdown-item" href="/portfolio/plexus-design-system/index.html">
+                <li>Plexus Design System<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill mb-1 ms-1 text-grayLight" viewBox="0 0 16 16">
+                    <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
+                </li>
+              </a>
+              <a class="dropdown-item" href="/portfolio/nationwide-insurance-websites/index.html">
+                <li>Nationwide Website Designs</li>
+              </a>
+            </ul>
+          </li>
+          <li class="nav-item d-md-none">
+            <a class="nav-link subpage fw-light" href="/portfolio/plexus-enrollment-redesign/index.html">Plexus Enrollment Redesign<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill mb-1 ms-1 text-light" viewBox="0 0 16 16">
+                <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" /></a>
+          </li>
+          <li class="nav-item d-md-none">
+            <a class="nav-link subpage fw-light" href="/portfolio/plexus-design-system/index.html">Plexus Design System<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill mb-1 ms-1 text-light" viewBox="0 0 16 16">
+                <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" /></a>
+          </li>
+          <li class="nav-item d-md-none">
+            <a class="nav-link subpage fw-light" href="/portfolio/nationwide-insurance-websites/index.html">Nationwide Website Designs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/portfolio/index.html">Portfolio</a>
+            <a class="nav-link" href="/experience/index.html">Experience</a>
+            <span class="d-md-none emoji-offcanvas">&#x1F468;&#x1F3FC;&#x200D;&#x1F4BB;</span>
           </li>
           <li class="nav-item">
             <a class="nav-link me-0" href="/about/index.html">About Me</a>
+            <span class="d-md-none emoji-offcanvas">&#x1F3DC;</span>
           </li>
         </ul>
-        <div class="d-lg-none text-center">
-          <div class="mx-auto mt-3 mb-5 divider-light"></div>
+        <div class="col-12 d-md-none">
           <div class="social-links">
             <a href="mailto: shcaudill@gmail.com" target="_blank" class="text-white me-4 text-decoration-none">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="me-2 mb-1" viewBox="0 0 24 24">
@@ -79,7 +110,7 @@
       <div class="container">
         <div class="row d-flex justify-content-center">
           <div class="col-11 col-lg-10 col-xl-9 col-xxl-8">
-            <h1 class="display-5 mb-0">About Me</h1>
+            <h1 class="mb-0">About Me</h1>
           </div>
         </div>
       </div>
@@ -88,8 +119,11 @@
       <div class="container">
         <div class="row d-flex justify-content-center">
           <div class="col-11 col-lg-10 col-xl-9 col-xxl-8">
-            <h4 class="intro mb-4">Outside of work, I'm a passionate outdoor enthusiast looking for the next adventure with my dog Max.</h4>
-            <p><strong>Jump to:</strong> <a href="#journey" class="mx-2">My Journey</a> | <a href="#interests" class="mx-2">My Interests</a> | <a href="#photos" class="mx-2">My Life in Photos</a></p>
+            <h2 class="mb-4">I'm a passionate outdoor enthusiast looking for the next adventure with my dog Max.</h2>
+            <p class="mb-2"><b>Jump to:</b></p>
+            <p class="mb-2"><a href="#journey">My Journey</a></p>
+            <p class="mb-2"><a href="#interests">Interests & Hobbies</a></p>
+            <p class="mb-0"><a href="#photos">My Life in Photos</a></p>
           </div>
         </div>
     </section>
@@ -99,27 +133,27 @@
           <div class="col-11 col-lg-10 col-xl-9 col-xxl-8">
             <div class="row">
               <div>
-                <h3 class="mb-5">My Journey</h3>
+                <h3 class="mb-5 text-md-center">My Journey</h3>
               </div>
             </div>
             <div class="row text-center">
               <div class="col-6 col-lg-3">
-                <p><span class="display-1">&#x1F3D6</span></p>
+                <p><span class="display-1">&#x1F3D6;</span></p>
                 <h4 class="mb-2">California</h4>
-                <p>Where I was born</p>
+                <p>Birthplace</p>
               </div>
               <div class="col-6 col-lg-3">
-                <p><span class="display-1">&#x1F3DC</span></p>
+                <p><span class="display-1">&#x1F3DC;</span></p>
                 <h4 class="mb-2">Arizona</h4>
-                <p>Childhood, pt. 1</p>
+                <p>Early childhood</p>
               </div>
               <div class="col-6 col-lg-3">
-                <p><span class="display-1">&#x1F33D</span></p>
+                <p><span class="display-1">&#x1F33D;</span></p>
                 <h4 class="mb-2">Nebraska</h4>
-                <p>Childhood, pt. 2</p>
+                <p>Growing up</p>
               </div>
               <div class="col-6 col-lg-3">
-                <p><span class="display-1">&#x1F3DC</span></p>
+                <p><span class="display-1">&#x1F3DC;</span></p>
                 <h4 class="mb-2">Arizona</h4>
                 <p>Adulthood</p>
               </div>
@@ -134,63 +168,63 @@
           <div class="col-11 col-lg-10 col-xl-9 col-xxl-8">
             <div class="row">
               <div>
-                <h3 class="mb-5">My Interests</h3>
+                <h3 class="mb-5 text-md-center">Interests & Hobbies</h3>
               </div>
             </div>
             <div class="row">
               <div class="col-12 mb-5">
                 <div class="row">
                   <div class="col-12">
-                    <h4 class="divider">Hobbies & Interests</h4>
+                    <h4 class="divider">Activities</h4>
                   </div>
-                  <div class="col-6 col-lg-4">
+                  <div class="col-sm-6 col-lg-4">
                     <p class="mb-2"><strong>Sports</strong></p>
                     <ul class="list-unstyled emoji-list">
-                      <li><span class="emoji">&#x1F9D7</span> Climbing</li>
-                      <li><span class="emoji">&#x1F6B4</span> Cycling</li>
-                      <li><span class="emoji">&#x1F3C3</span> Trail Running</li>
-                      <li><span class="emoji">&#x1F3C5</span> Triathlon</li>
-                      <li><span class="emoji">&#x1F6F9</span> Skateboarding</li>
-                      <li><span class="emoji">&#x1F3C2</span> Snowboarding</li>
+                      <li><span class="emoji">&#x1F9D7;</span> Climbing</li>
+                      <li><span class="emoji">&#x1F6B4;</span> Cycling</li>
+                      <li><span class="emoji">&#x1F3C3;</span> Trail Running</li>
+                      <li><span class="emoji">&#x1F3C5;</span> Triathlon</li>
+                      <li><span class="emoji">&#x1F6F9;</span> Skateboarding</li>
+                      <li><span class="emoji">&#x1F3C2;</span> Snowboarding</li>
                     </ul>
                   </div>
-                  <div class="col-6 col-lg-4">
+                  <div class="col-sm-6 col-lg-4">
                     <p class="mb-2"><strong>Outdoor Adventure</strong></p>
                     <ul class="list-unstyled">
-                      <li><span class="emoji">&#x1F392</span> Backpacking</li>
-                      <li><span class="emoji">&#x1F3D5</span> Camping</li>
-                      <li><span class="emoji">&#x1F97E</span> Hiking</li>
+                      <li><span class="emoji">&#x1F392;</span> Backpacking</li>
+                      <li><span class="emoji">&#x1F3D5;</span> Camping</li>
+                      <li><span class="emoji">&#x1F97E;</span> Hiking</li>
                     </ul>
                   </div>
                   <div class="col-lg-4">
                     <p class="mb-2"><strong>Creative Arts</strong></p>
                     <ul class="list-unstyled">
-                      <li><span class="emoji">&#x1F941</span> Drumming</li>
-                      <li><span class="emoji">&#x1F3B6</span> Music</li>
-                      <li><span class="emoji">&#x1F4F8</span> Photography</li>
-                      <li><span class="emoji">&#x1F3A8</span> Visual Art</li>
+                      <li><span class="emoji">&#x1F941;</span> Drumming</li>
+                      <li><span class="emoji">&#x1F3B6;</span> Music</li>
+                      <li><span class="emoji">&#x1F4F8;</span> Photography</li>
+                      <li><span class="emoji">&#x1F3A8;</span> Visual Art</li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
             <div class="row">
-              <div class="col-12 col-lg-6 mb-5 mb-lg-0">
+              <div class="col-12 col-md-6 mb-5 mb-md-0">
                 <h4 class="divider mb-3">Books I Love</h4>
-                <p class="mb-2"><strong>Born to Run</strong><br>Christopher McDougall | Running</p>
-                <p class="mb-2"><strong>Dune</strong><br>Frank Herbert | Sci-Fi</p>
-                <p class="mb-2"><strong>Into Thin Air</strong><br>Jon Krakauer | Everest</p>
-                <p class="mb-2"><strong>The Alchemist</strong><br>Paulo Coelho | Spirituality</p>
-                <p class="mb-2"><strong>The Lord of the Rings</strong><br>J.R.R. Tolkein | Fantasy</p>
-                <p class="mb-2"><strong>The Power of Now</strong><br>Ekhart Tolle | Spirituality</p>
+                <p class="mb-3"><strong>Born to Run</strong><br>Christopher McDougall | Running</p>
+                <p class="mb-3"><strong>Dune</strong><br>Frank Herbert | Sci-Fi</p>
+                <p class="mb-3"><strong>Into Thin Air</strong><br>Jon Krakauer | Everest</p>
+                <p class="mb-3"><strong>The Alchemist</strong><br>Paulo Coelho | Spirituality</p>
+                <p class="mb-3"><strong>The Lord of the Rings</strong><br>J.R.R. Tolkein | Fantasy</p>
+                <p class="mb-3"><strong>The Power of Now</strong><br>Ekhart Tolle | Spirituality</p>
               </div>
-              <div class="col-12 col-lg-6">
+              <div class="col-12 col-md-6">
                 <h4 class="divider mb-3">Races Finished</h4>
-                <p class="mb-2"><strong>Barkley Fall Classic</strong><br>38 miles (estimated) | 12:59:33</p>
-                <p class="mb-2"><strong>McDowell Mountain Frenzy</strong><br>50 kilometers | 5:29:08</p>
-                <p class="mb-2"><strong>Arizona Ironman</strong><br>70.3 kilometers | 5:54:50</p>
-                <p class="mb-2"><strong>Rock 'n' Roll Marathon</strong><br>26.4 miles | 4:28:12</p>
-                <p class="mb-5">...and dozens of "short course" races...</p>
+                <p class="mb-3"><strong>Barkley Fall Classic</strong><br>38 miles (estimated) | 12:59:33</p>
+                <p class="mb-3"><strong>McDowell Mountain Frenzy</strong><br>50 kilometers | 5:29:08</p>
+                <p class="mb-3"><strong>Arizona Ironman</strong><br>70.3 kilometers | 5:54:50</p>
+                <p class="mb-3"><strong>Rock 'n' Roll Marathon</strong><br>26.4 miles | 4:28:12</p>
+                <p class="mb-5"><strong>Dozens of "short course" races...</strong></p>
               </div>
             </div>
           </div>
@@ -203,39 +237,39 @@
           <h3 class="mb-5">My Life in Photos</h3>
           <div class="col-lg-4 mb-5">
             <img src="https://shcaudill.mo.cloudinary.net/images/about-photo-horseshoe-bend.jpg" class="img-fluid" alt="Horseshoe Bend">
-            <h4 class="mt-3">Horseshoe Bend</h4>
+            <p class="mt-3">Horseshoe Bend</p>
           </div>
           <div class="col-lg-4 mb-5">
             <img src="https://shcaudill.mo.cloudinary.net/images/about-photo-cactus.jpg" class="img-fluid" alt="Saquaro cactus with blooms">
-            <h4 class="mt-3">Saguaro blooms</h4>
+            <p class="mt-3">Saguaro blooms</p>
           </div>
           <div class="col-lg-4 mb-5">
             <img src="https://shcaudill.mo.cloudinary.net/images/about-photo-zion.jpg" class="img-fluid" alt="Bryce Canyon National Park">
-            <h4 class="mt-3">Bryce Canyon NP</h4>
+            <p class="mt-3">Bryce Canyon NP</p>
           </div>
           <div class="col-lg-4 mb-5">
             <img src="https://shcaudill.mo.cloudinary.net/images/about-photo-max-camping.jpg" class="img-fluid" alt="Max camping">
-            <h4 class="mt-3">Max camping</h4>
+            <p class="mt-3">Max camping</p>
           </div>
           <div class="col-lg-4 mb-5">
             <img src="https://shcaudill.mo.cloudinary.net/images/about-photo-piestewa-peak.jpg" class="img-fluid" alt="Piestewa Peak">
-            <h4 class="mt-3">Piestewa Peak ridgeline</h4>
+            <p class="mt-3">Piestewa Peak ridgeline</p>
           </div>
           <div class="col-lg-4 mb-5">
             <img src="https://shcaudill.mo.cloudinary.net/images/about-photo-humphreys-peak.jpg" class="img-fluid" alt="Humphreys Peak">
-            <h4 class="mt-3">Humphreys Peak</h4>
+            <p class="mt-3">Humphreys Peak</p>
           </div>
           <div class="col-lg-4 mb-5 mb-lg-0">
             <img src="https://shcaudill.mo.cloudinary.net/images/about-photo-snowboard-smile.jpg" class="img-fluid" alt="Snowboarding at Breckenridge">
-            <h4 class="mt-3">Big smiles at Breckenridge</h4>
+            <p class="mt-3">Big smiles at Breckenridge</p>
           </div>
           <div class="col-lg-4 mb-5 mb-lg-0">
             <img src="https://shcaudill.mo.cloudinary.net/images/about-photo-snowboard.jpg" class="img-fluid" alt="Snowboarding at Keystone">
-            <h4 class="mt-3">Views from Keystone</h4>
+            <p class="mt-3">Views from Keystone</p>
           </div>
           <div class="col-lg-4">
             <img src="https://shcaudill.mo.cloudinary.net/images/about-photo-snowboard-jump.jpg" class="img-fluid" alt="Snowboarding jump">
-            <h4 class="mt-3">"Big" air</h4>
+            <p class="mt-3">"Big" air</p>
           </div>
         </div>
       </div>
@@ -244,18 +278,18 @@
       <div class="container text-center">
         <div class="divider-light mb-5 mb-sm-6 w-100"></div>
         <div class="row">
-          <div class="col-12 col-lg-6 mb-5 mb-sm-6 mb-md-0">
+          <div class="col-12 col-lg-6 mb-5 mb-sm-6 mb-lg-0">
             <h3>My Career</h3>
             <div class="divider-dark mx-auto"></div>
-            <h4>I've had the opportunity to build, manage, <br>and lead teams of highly talented individuals.</h4>
-            <p class="mb-0"><span class=" display-1">&#x1F468;&#x1F3FC;&#x200D;&#x1F4BB;</span></p>
+            <h5>Over a dozen years of combined experience<br class="d-none d-md-inline-block"> in design, development, and leadership.</h5>
+            <p class="mb-0 emoji-large">&#x1F468;&#x1F3FC;&#x200D;&#x1F4BB;</p>
             <a class="btn btn-primary mt-4" href="/experience/index.html" role="button">Experience</a>
           </div>
           <div class="col-12 col-lg-6">
             <h3>My Work</h3>
             <div class="divider-dark mx-auto"></div>
-            <h4>I'm motivated to drive design strategy, <br>provide art direction and lead teams.</h4>
-            <p class="mb-0"><span class=" display-1">&#x1F3A8;</span></p>
+            <h5>I'm motivated to drive design strategy,<br class="d-none d-md-inline-block"> provide art direction, and lead teams.</h5>
+            <p class="mb-0 emoji-large">&#x1F3A8;</p>
             <a class="btn btn-primary mt-4" href="/portfolio/index.html" role="button">Portfolio</a>
           </div>
         </div>

@@ -1,12 +1,11 @@
-@media (max-width: 991.98px) {
+@media (max-width: 767.98px) {
   .offcanvas-collapse {
     position: fixed;
     top: 72px;
+    padding-top: 4rem;
     bottom: 0;
     left: 100%;
     width: 100%;
-    padding-right: 1rem;
-    padding-left: 1rem;
     overflow-y: auto;
     visibility: hidden;
     background-color: #181B1B;
@@ -14,6 +13,32 @@
   .offcanvas-collapse.open {
     visibility: visible;
     transform: translateX(-100%); }
+  .nav-item {
+    border-bottom: 1px solid #242828;
+    padding: 0 32px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 64px; }
+  .nav-item:first-of-type {
+    border-top: 1px solid #242828; }
   .nav-link {
-    color: #FFFFFF !important;
-    font-size: 24px; } }
+    color: #ffffff !important;
+    font-size: 24px;
+    margin-bottom: 0;
+    padding: 0; }
+  .subpage {
+    font-size: 20px;
+    margin-left: 16px; }
+  .nav-item:hover > a {
+    color: #ffffff !important; }
+  .social-links {
+    padding-left: 32px; } }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .nav-item {
+    border-bottom: 1px solid #242828;
+    padding: 0 128px; }
+  .social-links {
+    padding-left: 128px; } }
