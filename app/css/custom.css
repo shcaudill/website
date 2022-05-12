@@ -6580,7 +6580,7 @@ p.divider::after, h4.divider::after, .divider.h4::after {
   position: fixed !important; }
 
 .navbar {
-  padding: 1rem 1.25rem 1rem 2rem; }
+  padding: 1rem 24px 1rem 2rem; }
 
 .navbar-light .navbar-brand {
   color: #383E3E;

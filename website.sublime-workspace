@@ -4,8 +4,100 @@
 		"selected_items":
 		[
 			[
+				"dropd",
+				"dropdown-menu"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"nav",
+				"nav-link"
+			],
+			[
+				"dro",
+				"dropdown-toggle"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"ms-",
+				"ms-4"
+			],
+			[
+				"text-G",
+				"text-light"
+			],
+			[
+				"ali",
+				"align-self"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"dropdown",
+				"dropdown-toggle"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"d",
+				"d-md-inline-block"
+			],
+			[
+				"d-xl-",
+				"d-xl-inline-block"
+			],
+			[
+				"dx",
+				"d-xl-inline-block"
+			],
+			[
+				"d-lg",
+				"d-lg-inline-block"
+			],
+			[
+				"d-",
+				"d-sm-inline-block"
+			],
+			[
+				"d-xl",
+				"d-xl-inline-block"
+			],
+			[
+				"d-lg-",
+				"d-lg-inline-block"
+			],
+			[
 				"font",
 				"font-weight"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"tex",
+				"text-center"
+			],
+			[
+				"text-m",
+				"text-md-start"
+			],
+			[
+				"plexu",
+				"plexus-design-system"
+			],
+			[
+				"col",
+				"col-12"
 			],
 			[
 				"tex-",
@@ -16,16 +108,8 @@
 				"container-fluid"
 			],
 			[
-				"margin",
-				"margin-right"
-			],
-			[
 				"mb-",
 				"mb-3"
-			],
-			[
-				"ali",
-				"align-items-center"
 			],
 			[
 				"plexus-",
@@ -48,10 +132,6 @@
 				"text-center"
 			],
 			[
-				"d",
-				"d-inline"
-			],
-			[
 				"cont",
 				"container"
 			],
@@ -62,14 +142,6 @@
 			[
 				"min",
 				"min-height"
-			],
-			[
-				"tex",
-				"text-transform"
-			],
-			[
-				"border",
-				"border-radius"
 			],
 			[
 				"divide",
@@ -108,10 +180,6 @@
 				"padding-left"
 			],
 			[
-				"font-",
-				"font-size"
-			],
-			[
 				"border-",
 				"border-light"
 			],
@@ -128,12 +196,379 @@
 	"buffers":
 	[
 		{
-			"file": "app/index.html",
+			"file": "app/portfolio/index.html",
 			"settings":
 			{
-				"buffer_size": 15598,
+				"buffer_size": 19638,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"left_delete",
+					null,
+					"AQAAAEsEAAAAAAAASwQAAAAAAAAEAAAALW1pbg",
+					"AQAAAAAAAAABAAAASwQAAAAAAABPBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					2,
+					"left_delete",
+					null,
+					"AgAAAJ4EAAAAAAAAngQAAAAAAAAvAAAAICA8bGluayBocmVmPSIvY3NzL21vZGFsLmNzcyIgcmVsPSJzdHlsZXNoZWV0Ij6dBAAAAAAAAJ0EAAAAAAAAAQAAAAo",
+					"AQAAAAAAAAABAAAAzQQAAAAAAACeBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					26,
+					1,
+					"insert",
+					{
+						"characters": "lg"
+					},
+					"AwAAAB0JAAAAAAAAHgkAAAAAAAAAAAAAHgkAAAAAAAAeCQAAAAAAAAIAAABtZB4JAAAAAAAAHwkAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHQkAAAAAAAAfCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					49,
+					1,
+					"insert",
+					{
+						"characters": "\\"
+					},
+					"AQAAAGkEAAAAAAAAagQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAaQQAAAAAAABpBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					50,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGkEAAAAAAAAaQQAAAAAAAABAAAAXA",
+					"AQAAAAAAAAABAAAAagQAAAAAAABqBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					51,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAGkEAAAAAAAAagQAAAAAAAAAAAAAagQAAAAAAABsBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAaQQAAAAAAABpBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					52,
+					1,
+					"paste",
+					null,
+					"AQAAAGwEAAAAAAAAmgQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAbAQAAAAAAABsBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					55,
+					1,
+					"insert",
+					{
+						"characters": "fix"
+					},
+					"BAAAAH0EAAAAAAAAfgQAAAAAAAAAAAAAfgQAAAAAAAB+BAAAAAAAAAYAAABjdXN0b21+BAAAAAAAAH8EAAAAAAAAAAAAAH8EAAAAAAAAgAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAfQQAAAAAAACDBAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "app/scss/_navbar.scss",
+			"settings":
+			{
+				"buffer_size": 963,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "4"
+					},
+					"AgAAAEcAAAAAAAAASAAAAAAAAAAAAAAASAAAAAAAAABIAAAAAAAAAAEAAAAy",
+					"AQAAAAAAAAABAAAARwAAAAAAAABIAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "app/scss/_global.scss",
+			"redo_stack":
+			[
+				[
+					42,
+					1,
+					"left_delete",
+					null,
+					"AQAAANsHAAAAAAAA3QcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2wcAAAAAAADbBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					38,
+					1,
+					"paste",
+					null,
+					"AgAAAFQIAAAAAAAAWQgAAAAAAAAAAAAATggAAAAAAABOCAAAAAAAAAYAAABhY3RpdmU",
+					"AQAAAAAAAAABAAAAVAgAAAAAAABUCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					32,
+					1,
+					"insert",
+					{
+						"characters": "active"
+					},
+					"BwAAACkIAAAAAAAAKQgAAAAAAAABAAAAZSgIAAAAAAAAKAgAAAAAAAABAAAAdicIAAAAAAAAJwgAAAAAAAABAAAAaSYIAAAAAAAAJggAAAAAAAABAAAAdCUIAAAAAAAAJQgAAAAAAAABAAAAYyUIAAAAAAAAKggAAAAAAAAAAAAAJAgAAAAAAAAkCAAAAAAAAAEAAABh",
+					"AQAAAAAAAAABAAAAKggAAAAAAAAqCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					27,
+					1,
+					"insert",
+					{
+						"characters": "click"
+					},
+					"BgAAACgIAAAAAAAAKAgAAAAAAAABAAAAaycIAAAAAAAAJwgAAAAAAAABAAAAYyYIAAAAAAAAJggAAAAAAAABAAAAaSUIAAAAAAAAJQgAAAAAAAABAAAAbCUIAAAAAAAAKggAAAAAAAAAAAAAJAgAAAAAAAAkCAAAAAAAAAEAAABj",
+					"AQAAAAAAAAABAAAAKQgAAAAAAAApCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"paste",
+					null,
+					"AQAAANsHAAAAAAAA2wcAAAAAAADNAAAAICAubmF2YmFyIC5uYXYtaXRlbSAuZHJvcGRvd24tbWVudXsgZGlzcGxheTogbm9uZTsgfQogIC5uYXZiYXIgLm5hdi1pdGVtOmhvdmVyIC5uYXYtbGlua3sgICB9CiAgLm5hdmJhciAubmF2LWl0ZW06aG92ZXIgLmRyb3Bkb3duLW1lbnV7IGRpc3BsYXk6IGJsb2NrOyB9CiAgLm5hdmJhciAubmF2LWl0ZW0gLmRyb3Bkb3duLW1lbnV7IG1hcmdpbi10b3A6MDsgfQ",
+					"AQAAAAAAAAABAAAAqAgAAAAAAACoCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAANkHAAAAAAAA2QcAAAAAAAACAAAAICDYBwAAAAAAANgHAAAAAAAAAQAAAAo",
+					"AQAAAAAAAAABAAAA2wcAAAAAAADbBwAAAAAAAAAAAAAAAPC/"
+				]
+			],
+			"settings":
+			{
+				"buffer_size": 2939,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "app/css/fix.css",
+			"settings":
+			{
+				"buffer_size": 38,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": ".dro"
+					},
+					"BQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAK4UAAAubW9kYWwgewogIHBvc2l0aW9uOiBmaXhlZDsKICB0b3A6IDA7CiAgbGVmdDogMDsKICB6LWluZGV4OiAxMDU1OwogIGRpc3BsYXk6IG5vbmU7CiAgd2lkdGg6IDEwMCU7CiAgaGVpZ2h0OiAxMDAlOwogIG92ZXJmbG93LXg6IGhpZGRlbjsKICBvdmVyZmxvdy15OiBhdXRvOwogIG91dGxpbmU6IDA7IH0KCi5tb2RhbC1kaWFsb2cgewogIHBvc2l0aW9uOiByZWxhdGl2ZTsKICB3aWR0aDogYXV0bzsKICBtYXJnaW46IDAuNXJlbTsKICBwb2ludGVyLWV2ZW50czogbm9uZTsgfQoKLm1vZGFsLmZhZGUgLm1vZGFsLWRpYWxvZyB7CiAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuM3MgZWFzZS1vdXQ7CiAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoMCwgLTUwcHgpOyB9CgpAbWVkaWEgKHByZWZlcnMtcmVkdWNlZC1tb3Rpb246IHJlZHVjZSkgewogIC5tb2RhbC5mYWRlIC5tb2RhbC1kaWFsb2cgewogICAgdHJhbnNpdGlvbjogbm9uZTsgfSB9CgoubW9kYWwuc2hvdyAubW9kYWwtZGlhbG9nIHsKICB0cmFuc2Zvcm06IG5vbmU7IH0KCi5tb2RhbC5tb2RhbC1zdGF0aWMgLm1vZGFsLWRpYWxvZyB7CiAgdHJhbnNmb3JtOiBzY2FsZSgxLjAyKTsgfQoKLm1vZGFsLWRpYWxvZy1zY3JvbGxhYmxlIHsKICBoZWlnaHQ6IGNhbGMoMTAwJSAtIDFyZW0pOyB9CgoubW9kYWwtZGlhbG9nLXNjcm9sbGFibGUgLm1vZGFsLWNvbnRlbnQgewogIG1heC1oZWlnaHQ6IDEwMCU7CiAgb3ZlcmZsb3c6IGhpZGRlbjsgfQoKLm1vZGFsLWRpYWxvZy1zY3JvbGxhYmxlIC5tb2RhbC1ib2R5IHsKICBvdmVyZmxvdy15OiBhdXRvOyB9CgoubW9kYWwtZGlhbG9nLWNlbnRlcmVkIHsKICBkaXNwbGF5OiBmbGV4OwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgbWluLWhlaWdodDogY2FsYygxMDAlIC0gMXJlbSk7IH0KCi5tb2RhbC1jb250ZW50IHsKICBwb3NpdGlvbjogcmVsYXRpdmU7CiAgZGlzcGxheTogZmxleDsKICBmbGV4LWRpcmVjdGlvbjogY29sdW1uOwogIHdpZHRoOiAxMDAlOwogIHBvaW50ZXItZXZlbnRzOiBhdXRvOwogIGJhY2tncm91bmQtY29sb3I6ICNmZmZmZmY7CiAgYmFja2dyb3VuZC1jbGlwOiBwYWRkaW5nLWJveDsKICBib3JkZXI6IDFweCBzb2xpZCByZ2JhKDAsIDAsIDAsIDAuMik7CiAgYm9yZGVyLXJhZGl1czogMC4zcmVtOwogIGJveC1zaGFkb3c6IDAgMC4xMjVyZW0gMC4yNXJlbSByZ2JhKDAsIDAsIDAsIDAuMDc1KTsKICBvdXRsaW5lOiAwOyB9CgoubW9kYWwtYmFja2Ryb3AgewogIHBvc2l0aW9uOiBmaXhlZDsKICB0b3A6IDA7CiAgbGVmdDogMDsKICB6LWluZGV4OiAxMDUwOwogIHdpZHRoOiAxMDB2dzsKICBoZWlnaHQ6IDEwMHZoOwogIGJhY2tncm91bmQtY29sb3I6ICMwMDA7IH0KCi5tb2RhbC1iYWNrZHJvcC5mYWRlIHsKICBvcGFjaXR5OiAwOyB9CgoubW9kYWwtYmFja2Ryb3Auc2hvdyB7CiAgb3BhY2l0eTogMC41OyB9CgoubW9kYWwtaGVhZGVyIHsKICBkaXNwbGF5OiBmbGV4OwogIGZsZXgtc2hyaW5rOiAwOwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuOwogIHBhZGRpbmc6IDFyZW0gMXJlbTsKICBib3JkZXItYm90dG9tOiAxcHggc29saWQgI0M5Q0ZDRjsKICBib3JkZXItdG9wLWxlZnQtcmFkaXVzOiBjYWxjKDAuM3JlbSAtIDFweCk7CiAgYm9yZGVyLXRvcC1yaWdodC1yYWRpdXM6IGNhbGMoMC4zcmVtIC0gMXB4KTsgfQoKLm1vZGFsLWhlYWRlciAuYnRuLWNsb3NlIHsKICBwYWRkaW5nOiAwLjVyZW0gMC41cmVtOwogIG1hcmdpbjogLTAuNXJlbSAtMC41cmVtIC0wLjVyZW0gYXV0bzsgfQoKLm1vZGFsLXRpdGxlIHsKICBtYXJnaW4tYm90dG9tOiAwOwogIGxpbmUtaGVpZ2h0OiAxLjU7IH0KCi5tb2RhbC1ib2R5IHsKICBwb3NpdGlvbjogcmVsYXRpdmU7CiAgZmxleDogMSAxIGF1dG87CiAgcGFkZGluZzogMXJlbTsgfQoKLm1vZGFsLWZvb3RlciB7CiAgZGlzcGxheTogZmxleDsKICBmbGV4LXdyYXA6IHdyYXA7CiAgZmxleC1zaHJpbms6IDA7CiAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICBqdXN0aWZ5LWNvbnRlbnQ6IGZsZXgtZW5kOwogIHBhZGRpbmc6IDAuNzVyZW07CiAgYm9yZGVyLXRvcDogMXB4IHNvbGlkICNDOUNGQ0Y7CiAgYm9yZGVyLWJvdHRvbS1yaWdodC1yYWRpdXM6IGNhbGMoMC4zcmVtIC0gMXB4KTsKICBib3JkZXItYm90dG9tLWxlZnQtcmFkaXVzOiBjYWxjKDAuM3JlbSAtIDFweCk7IH0KCi5tb2RhbC1mb290ZXIgPiAqIHsKICBtYXJnaW46IDAuMjVyZW07IH0KCkBtZWRpYSAobWluLXdpZHRoOiA1NzZweCkgewogIC5tb2RhbC1kaWFsb2cgewogICAgbWF4LXdpZHRoOiA1MDBweDsKICAgIG1hcmdpbjogMS43NXJlbSBhdXRvOyB9CiAgLm1vZGFsLWRpYWxvZy1zY3JvbGxhYmxlIHsKICAgIGhlaWdodDogY2FsYygxMDAlIC0gMy41cmVtKTsgfQogIC5tb2RhbC1kaWFsb2ctY2VudGVyZWQgewogICAgbWluLWhlaWdodDogY2FsYygxMDAlIC0gMy41cmVtKTsgfQogIC5tb2RhbC1jb250ZW50IHsKICAgIGJveC1zaGFkb3c6IDAgMC41cmVtIDFyZW0gcmdiYSgwLCAwLCAwLCAwLjE1KTsgfQogIC5tb2RhbC1zbSB7CiAgICBtYXgtd2lkdGg6IDMwMHB4OyB9IH0KCkBtZWRpYSAobWluLXdpZHRoOiA5OTJweCkgewogIC5tb2RhbC1sZywKICAubW9kYWwteGwgewogICAgbWF4LXdpZHRoOiA4MDBweDsgfSB9CgpAbWVkaWEgKG1pbi13aWR0aDogMTIwMHB4KSB7CiAgLm1vZGFsLXhsIHsKICAgIG1heC13aWR0aDogMTE0MHB4OyB9IH0KCi5tb2RhbC1mdWxsc2NyZWVuIHsKICB3aWR0aDogMTAwdnc7CiAgbWF4LXdpZHRoOiBub25lOwogIGhlaWdodDogMTAwJTsKICBtYXJnaW46IDA7IH0KCi5tb2RhbC1mdWxsc2NyZWVuIC5tb2RhbC1jb250ZW50IHsKICBoZWlnaHQ6IDEwMCU7CiAgYm9yZGVyOiAwOwogIGJvcmRlci1yYWRpdXM6IDA7IH0KCi5tb2RhbC1mdWxsc2NyZWVuIC5tb2RhbC1oZWFkZXIgewogIGJvcmRlci1yYWRpdXM6IDA7IH0KCi5tb2RhbC1mdWxsc2NyZWVuIC5tb2RhbC1ib2R5IHsKICBvdmVyZmxvdy15OiBhdXRvOyB9CgoubW9kYWwtZnVsbHNjcmVlbiAubW9kYWwtZm9vdGVyIHsKICBib3JkZXItcmFkaXVzOiAwOyB9CgpAbWVkaWEgKG1heC13aWR0aDogNTc1Ljk4cHgpIHsKICAubW9kYWwtZnVsbHNjcmVlbi1zbS1kb3duIHsKICAgIHdpZHRoOiAxMDB2dzsKICAgIG1heC13aWR0aDogbm9uZTsKICAgIGhlaWdodDogMTAwJTsKICAgIG1hcmdpbjogMDsgfQogIC5tb2RhbC1mdWxsc2NyZWVuLXNtLWRvd24gLm1vZGFsLWNvbnRlbnQgewogICAgaGVpZ2h0OiAxMDAlOwogICAgYm9yZGVyOiAwOwogICAgYm9yZGVyLXJhZGl1czogMDsgfQogIC5tb2RhbC1mdWxsc2NyZWVuLXNtLWRvd24gLm1vZGFsLWhlYWRlciB7CiAgICBib3JkZXItcmFkaXVzOiAwOyB9CiAgLm1vZGFsLWZ1bGxzY3JlZW4tc20tZG93biAubW9kYWwtYm9keSB7CiAgICBvdmVyZmxvdy15OiBhdXRvOyB9CiAgLm1vZGFsLWZ1bGxzY3JlZW4tc20tZG93biAubW9kYWwtZm9vdGVyIHsKICAgIGJvcmRlci1yYWRpdXM6IDA7IH0gfQoKQG1lZGlhIChtYXgtd2lkdGg6IDc2Ny45OHB4KSB7CiAgLm1vZGFsLWZ1bGxzY3JlZW4tbWQtZG93biB7CiAgICB3aWR0aDogMTAwdnc7CiAgICBtYXgtd2lkdGg6IG5vbmU7CiAgICBoZWlnaHQ6IDEwMCU7CiAgICBtYXJnaW46IDA7IH0KICAubW9kYWwtZnVsbHNjcmVlbi1tZC1kb3duIC5tb2RhbC1jb250ZW50IHsKICAgIGhlaWdodDogMTAwJTsKICAgIGJvcmRlcjogMDsKICAgIGJvcmRlci1yYWRpdXM6IDA7IH0KICAubW9kYWwtZnVsbHNjcmVlbi1tZC1kb3duIC5tb2RhbC1oZWFkZXIgewogICAgYm9yZGVyLXJhZGl1czogMDsgfQogIC5tb2RhbC1mdWxsc2NyZWVuLW1kLWRvd24gLm1vZGFsLWJvZHkgewogICAgb3ZlcmZsb3cteTogYXV0bzsgfQogIC5tb2RhbC1mdWxsc2NyZWVuLW1kLWRvd24gLm1vZGFsLWZvb3RlciB7CiAgICBib3JkZXItcmFkaXVzOiAwOyB9IH0KCkBtZWRpYSAobWF4LXdpZHRoOiA5OTEuOThweCkgewogIC5tb2RhbC1mdWxsc2NyZWVuLWxnLWRvd24gewogICAgd2lkdGg6IDEwMHZ3OwogICAgbWF4LXdpZHRoOiBub25lOwogICAgaGVpZ2h0OiAxMDAlOwogICAgbWFyZ2luOiAwOyB9CiAgLm1vZGFsLWZ1bGxzY3JlZW4tbGctZG93biAubW9kYWwtY29udGVudCB7CiAgICBoZWlnaHQ6IDEwMCU7CiAgICBib3JkZXI6IDA7CiAgICBib3JkZXItcmFkaXVzOiAwOyB9CiAgLm1vZGFsLWZ1bGxzY3JlZW4tbGctZG93biAubW9kYWwtaGVhZGVyIHsKICAgIGJvcmRlci1yYWRpdXM6IDA7IH0KICAubW9kYWwtZnVsbHNjcmVlbi1sZy1kb3duIC5tb2RhbC1ib2R5IHsKICAgIG92ZXJmbG93LXk6IGF1dG87IH0KICAubW9kYWwtZnVsbHNjcmVlbi1sZy1kb3duIC5tb2RhbC1mb290ZXIgewogICAgYm9yZGVyLXJhZGl1czogMDsgfSB9CgpAbWVkaWEgKG1heC13aWR0aDogMTE5OS45OHB4KSB7CiAgLm1vZGFsLWZ1bGxzY3JlZW4teGwtZG93biB7CiAgICB3aWR0aDogMTAwdnc7CiAgICBtYXgtd2lkdGg6IG5vbmU7CiAgICBoZWlnaHQ6IDEwMCU7CiAgICBtYXJnaW46IDA7IH0KICAubW9kYWwtZnVsbHNjcmVlbi14bC1kb3duIC5tb2RhbC1jb250ZW50IHsKICAgIGhlaWdodDogMTAwJTsKICAgIGJvcmRlcjogMDsKICAgIGJvcmRlci1yYWRpdXM6IDA7IH0KICAubW9kYWwtZnVsbHNjcmVlbi14bC1kb3duIC5tb2RhbC1oZWFkZXIgewogICAgYm9yZGVyLXJhZGl1czogMDsgfQogIC5tb2RhbC1mdWxsc2NyZWVuLXhsLWRvd24gLm1vZGFsLWJvZHkgewogICAgb3ZlcmZsb3cteTogYXV0bzsgfQogIC5tb2RhbC1mdWxsc2NyZWVuLXhsLWRvd24gLm1vZGFsLWZvb3RlciB7CiAgICBib3JkZXItcmFkaXVzOiAwOyB9IH0KCkBtZWRpYSAobWF4LXdpZHRoOiAxMzk5Ljk4cHgpIHsKICAubW9kYWwtZnVsbHNjcmVlbi14eGwtZG93biB7CiAgICB3aWR0aDogMTAwdnc7CiAgICBtYXgtd2lkdGg6IG5vbmU7CiAgICBoZWlnaHQ6IDEwMCU7CiAgICBtYXJnaW46IDA7IH0KICAubW9kYWwtZnVsbHNjcmVlbi14eGwtZG93biAubW9kYWwtY29udGVudCB7CiAgICBoZWlnaHQ6IDEwMCU7CiAgICBib3JkZXI6IDA7CiAgICBib3JkZXItcmFkaXVzOiAwOyB9CiAgLm1vZGFsLWZ1bGxzY3JlZW4teHhsLWRvd24gLm1vZGFsLWhlYWRlciB7CiAgICBib3JkZXItcmFkaXVzOiAwOyB9CiAgLm1vZGFsLWZ1bGxzY3JlZW4teHhsLWRvd24gLm1vZGFsLWJvZHkgewogICAgb3ZlcmZsb3cteTogYXV0bzsgfQogIC5tb2RhbC1mdWxsc2NyZWVuLXh4bC1kb3duIC5tb2RhbC1mb290ZXIgewogICAgYm9yZGVyLXJhZGl1czogMDsgfSB9CgEAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAADAAAAAAAAAAAAAAADAAAAAAAAAAQAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAACuFAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": "pd"
+					},
+					"AgAAAAQAAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAGAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"insert_completion",
+					{
+						"completion": "dropdown-menu",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "dropdown-menu"
+					},
+					"AgAAAAEAAAAAAAAAAQAAAAAAAAAFAAAAZHJvcGQBAAAAAAAAAA4AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABgAAAAAAAAAGAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"insert",
+					{
+						"characters": " .s"
+					},
+					"AwAAAA4AAAAAAAAADwAAAAAAAAAAAAAADwAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAABEAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADgAAAAAAAAAOAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"insert",
+					{
+						"characters": "how"
+					},
+					"AwAAABEAAAAAAAAAEgAAAAAAAAAAAAAAEgAAAAAAAAATAAAAAAAAAAAAAAATAAAAAAAAABQAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEQAAAAAAAAARAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAABQAAAAAAAAAFgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+					},
+					"AwAAABUAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAXAAAAAAAAAAAAAAAWAAAAAAAAABgAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFQAAAAAAAAAVAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": "dis"
+					},
+					"AwAAABgAAAAAAAAAGQAAAAAAAAAAAAAAGQAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABsAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert_completion",
+					{
+						"completion": "display: $0;",
+						"format": "snippet",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "display"
+					},
+					"AgAAABgAAAAAAAAAGAAAAAAAAAADAAAAZGlzGAAAAAAAAAAiAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGwAAAAAAAAAbAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": "inl"
+					},
+					"AwAAACEAAAAAAAAAIgAAAAAAAAAAAAAAIgAAAAAAAAAjAAAAAAAAAAAAAAAjAAAAAAAAACQAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIQAAAAAAAAAhAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					3,
+					"left_delete",
+					null,
+					"AwAAACMAAAAAAAAAIwAAAAAAAAABAAAAbCIAAAAAAAAAIgAAAAAAAAABAAAAbiEAAAAAAAAAIQAAAAAAAAABAAAAaQ",
+					"AQAAAAAAAAABAAAAJAAAAAAAAAAkAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"insert",
+					{
+						"characters": "block"
+					},
+					"BQAAACEAAAAAAAAAIgAAAAAAAAAAAAAAIgAAAAAAAAAjAAAAAAAAAAAAAAAjAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAJQAAAAAAAAAAAAAAJQAAAAAAAAAmAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIQAAAAAAAAAhAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					23,
+					1,
+					"htmlprettify",
+					null,
+					"AQAAAAAAAAAAAAAAKgAAAAAAAAApAAAALmRyb3Bkb3duLW1lbnUgLnNob3d7CiAgZGlzcGxheTogYmxvY2s7Cn0",
+					"AQAAAAAAAAABAAAAJwAAAAAAAAAnAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					30,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAAPAAAALmRyb3Bkb3duLW1lbnUg",
+					"AQAAAAAAAAABAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					33,
+					1,
+					"insert",
+					{
+						"characters": " !import"
+					},
+					"CAAAABgAAAAAAAAAGQAAAAAAAAAAAAAAGQAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABsAAAAAAAAAAAAAABsAAAAAAAAAHAAAAAAAAAAAAAAAHAAAAAAAAAAdAAAAAAAAAAAAAAAdAAAAAAAAAB4AAAAAAAAAAAAAAB4AAAAAAAAAHwAAAAAAAAAAAAAAHwAAAAAAAAAgAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					34,
+					1,
+					"insert_completion",
+					{
+						"completion": "!important",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "!important"
+					},
+					"AgAAABkAAAAAAAAAGQAAAAAAAAAHAAAAIWltcG9ydBkAAAAAAAAAIwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 765,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "app/css/custom.css",
+			"settings":
+			{
+				"buffer_size": 166099,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
 		}
 	],
 	"build_system": "",
@@ -144,9 +579,13 @@
 	"command_palette":
 	{
 		"height": 119.0,
-		"last_filter": "Package Control: inst",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"sass",
+				"SassBeautify"
+			],
 			[
 				"Package Control: inst",
 				"Package Control: Install Package"
@@ -180,47 +619,49 @@
 		"/Users/seancaudill/code/website",
 		"/Users/seancaudill/code/website/app",
 		"/Users/seancaudill/code/website/app/about",
+		"/Users/seancaudill/code/website/app/css",
 		"/Users/seancaudill/code/website/app/css-min",
 		"/Users/seancaudill/code/website/app/experience",
+		"/Users/seancaudill/code/website/app/js",
 		"/Users/seancaudill/code/website/app/portfolio",
 		"/Users/seancaudill/code/website/app/portfolio/nationwide-insurance-websites",
 		"/Users/seancaudill/code/website/app/portfolio/plexus-design-system",
+		"/Users/seancaudill/code/website/app/portfolio/plexus-digital-strategy",
 		"/Users/seancaudill/code/website/app/portfolio/plexus-enrollment-redesign",
-		"/Users/seancaudill/code/website/app/scss",
-		"/Users/seancaudill/code/website/node_modules",
-		"/Users/seancaudill/code/website/node_modules/accepts",
-		"/Users/seancaudill/code/website/node_modules/bootstrap",
-		"/Users/seancaudill/code/website/node_modules/bootstrap/scss"
+		"/Users/seancaudill/code/website/app/scss"
 	],
 	"file_history":
 	[
 		"/Users/seancaudill/code/website/app/portfolio/plexus-enrollment-redesign/index.html",
-		"/Users/seancaudill/code/website/app/index.html",
-		"/Users/seancaudill/code/website/app/portfolio/nationwide-insurance-websites/index.html",
 		"/Users/seancaudill/code/website/app/portfolio/plexus-design-system/index.html",
-		"/Users/seancaudill/code/website/readme.md",
-		"/Users/seancaudill/code/website/app/portfolio/index.html",
-		"/Users/seancaudill/code/website/app/experience/index.html",
+		"/Users/seancaudill/code/website/app/index.html",
 		"/Users/seancaudill/code/website/app/about/index.html",
-		"/Users/seancaudill/code/website/app/scss/_variables.scss",
-		"/Users/seancaudill/code/website/app/scss/_typography.scss",
 		"/Users/seancaudill/code/website/app/scss/_navbar.scss",
+		"/Users/seancaudill/code/website/app/experience/index.html",
+		"/Users/seancaudill/code/website/app/portfolio/index.html",
 		"/Users/seancaudill/code/website/app/scss/custom.scss",
-		"/Users/seancaudill/code/website/app/scss/_buttons.scss",
+		"/Users/seancaudill/code/website/app/scss/_typography.scss",
 		"/Users/seancaudill/code/website/app/scss/_global.scss",
-		"/Users/seancaudill/code/website/app/scss/_images.scss",
-		"/Users/seancaudill/code/website/app/css/custom.css",
+		"/Users/seancaudill/code/website/app/scss/offcanvas.scss",
+		"/Users/seancaudill/code/website/readme.md",
+		"/Users/seancaudill/code/website/app/portfolio/nationwide-insurance-websites/index.html",
+		"/Users/seancaudill/code/website/app/js/offcanvas.js",
+		"/Users/seancaudill/code/website/app/scss/_buttons.scss",
+		"/Users/seancaudill/code/website/app/scss/_variables.scss",
+		"/Users/seancaudill/code/website/app/scss/_heros.scss",
+		"/Users/seancaudill/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/Users/seancaudill/Library/Application Support/Sublime Text 3/Packages/User/HTMLPrettify.sublime-settings",
 		"/Users/seancaudill/code/website/app/css-min/custom.css",
-		"/Users/seancaudill/code/website/.gitignore",
+		"/Users/seancaudill/code/website/app/css/custom.css",
 		"/Users/seancaudill/code/website/app/scss/_content.scss",
+		"/Users/seancaudill/code/website/app/scss/_images.scss",
+		"/Users/seancaudill/code/website/.gitignore",
 		"/Users/seancaudill/code/website/app/scss/_cards.scss",
 		"/Users/seancaudill/code/website/app/images/logo-plexus-red.svg",
 		"/Users/seancaudill/code/website/archive/index-v1.html",
 		"/Users/seancaudill/code/website/app/scss/modal.scss",
 		"/Users/seancaudill/code/website/app/scss/_modals.scss",
-		"/Users/seancaudill/code/website/app/scss/offcanvas.scss",
 		"/Users/seancaudill/code/website/app/plexus-enrollment-redesign/index.html",
-		"/Users/seancaudill/code/website/app/scss/_heros.scss",
 		"/Users/seancaudill/Desktop/bs.css",
 		"/Users/seancaudill/code/website/app/scss/_offcanvas.scss",
 		"/Users/seancaudill/code/website/node_modules/bootstrap/scss/_variables.scss",
@@ -229,7 +670,6 @@
 		"/Users/seancaudill/code/website/app/dist/css/offcanvas.css",
 		"/Users/seancaudill/code/website/app/scss/bonus.scss",
 		"/Users/seancaudill/Desktop/test/index.html",
-		"/Users/seancaudill/code/website/app/js/offcanvas.js",
 		"/Users/seancaudill/code/website/app/js/portfolioModal.js",
 		"/Users/seancaudill/code/website/app/js/modal.js",
 		"/Users/seancaudill/code/website/app/js/modal.js.map",
@@ -265,7 +705,6 @@
 		"/Users/seancaudill/code/website/node_modules/bootstrap/scss/_utilities.scss",
 		"/Users/seancaudill/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
 		"/Users/seancaudill/Documents/sean-caudill-design/website/working-files/colors/colors.html",
-		"/Users/seancaudill/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
 		"/Users/seancaudill/Library/Application Support/Sublime Text 3/Packages/User/.jsbeautifyrc",
 		"/Users/seancaudill/code/website/app/scss/_fonts.scss",
 		"/Users/seancaudill/code/website/node_modules/bootstrap/scss/_navbar.scss"
@@ -287,6 +726,38 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"dropdown-menu show",
+			"show",
+			"\"/css/custom.css\"",
+			"lock",
+			"communicati",
+			"flow landing pag",
+			", and IT",
+			"clickthrough",
+			"<div class=\"col-11 col-md-6 col-lg-3\">",
+			"<p class=\"mt-3 mb-4 mb-md-0\">",
+			"\"col-12 col-md-11 col-lg-10\"",
+			"\"col-12 col-md-9\"",
+			"I'm a passionate outdoor enthusiast<br class=\"d-none d-md-inline-block\"> looking for the next adventure with my dog Max.",
+			"Over a dozen years of combined experience<br class=\"d-none d-md-inline-block\"> designing, developing, and leading teams.",
+			"\"row g-3 g-lg-5\"",
+			"\"col-md-6 col-lg-4 mb-4 mb-lg-0\"",
+			"\"col-md-6 col-lg-4 mb-4 mb-md-0\"",
+			"\"col-md-4 mb-4 mb-md-0\"",
+			"<h5>Over a dozen years of combined experience designing, developing, and leading teams.</h5>",
+			"<h5>I've had the opportunity to build, manage, and lead teams of highly talented individuals.</h5>",
+			"<h4>I'm motivated to drive design strategy, <br>provide art direction and lead teams.</h4>",
+			"<h4>I've had the opportunity to build, manage, <br>and lead teams of highly talented individuals.</h4>",
+			"<h4>I'm a passionate outdoor enthusiast looking for <br>the next adventure with my dog Max.</h4>",
+			"display-2 mb-0",
+			"display-5",
+			"\"/css-min/",
+			"Project software and design flow",
+			"<h4>My role</h4>",
+			"\"/about/\"",
+			"\"/portfolio/\"",
+			"\"/experience/\"",
+			"\"/images",
 			"\"/css/custom.css\"",
 			"src=\"/images",
 			"<h4 class=\"mt-3 mb-4 mb-md-0\">",
@@ -382,39 +853,7 @@
 			"body",
 			"open",
 			"exampleModal",
-			"padding-top: 72px;",
-			"body",
-			"modal",
-			"/images",
-			"https://shcaudill.mo.cloudinary.net/images",
-			"/images",
-			"alpha",
-			"yall",
-			"../images",
-			"document.addEventListener",
-			"col-xs",
-			"text-center-sm",
-			"mailto",
-			"dividerLight",
-			"dividerLightGray",
-			"dividerDark",
-			"font",
-			"My Work",
-			"my-work",
-			"Col",
-			"col",
-			"my-work",
-			"col",
-			"access",
-			"border-color",
-			"my wor",
-			"modal",
-			"divi",
-			"link",
-			"limk",
-			"liink",
-			"link-hover-color",
-			"divider"
+			"padding-top: 72px;"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -422,6 +861,31 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\"/css-min/custom.css\"",
+			"<div class=\"col-11 col-lg-6 col-xl-3\">",
+			"<p class=\"mt-3 mb-5 mb-md-0\">",
+			"\"col-12 col-md-11 col-lg-10 col-xl-8\"",
+			"\"col-12 col-md-11 col-lg-10\"",
+			"I'm a passionate outdoor enthusiast<br class=\"d-none d-md-inline-block d-lg-none d-xl-inline-block\"> looking for the next adventure with my dog Max.",
+			"Over a dozen years of combined experience<br class=\"d-none d-md-inline-block\"> in design, development, and leadership.",
+			"\"row g-3 g-lg-5 d-flex justify-content-center\"",
+			"\"col-md-6 col-lg-4 mb-5 mb-lg-0\"",
+			"\"col-md-6 col-lg-4 mb-4 mb-lg-0\"",
+			"\"col-md-6 col-lg-4 mb-4 mb-md-0\"",
+			"<h5>Over a dozen years of combined experience<br class=\"d-none d-md-inline-block\"> designing, developing, and leading teams.</h5>",
+			"<h5> over a dozen years of combined experience designing, developing, and leading teams.</h5>",
+			"<h5>I'm motivated to drive design strategy, <br>provide art direction and lead teams.</h5>",
+			"<h5>I've had the opportunity to build, manage, <br>and lead teams of highly talented individuals.</h5>",
+			"<h5>I'm a passionate outdoor enthusiast looking for <br>the next adventure with my dog Max.</h5>",
+			"mb-0",
+			"display-2",
+			"\"/css/",
+			"Project Software and Design Flow",
+			"<h4>My Role</h4>",
+			"\"/about/index.html\"",
+			"\"/portfolio/index.html\"",
+			"\"/experience/index.html\"",
+			"\"https://shcaudill.mo.cloudinary.net/images",
 			"\"/css-min/custom.css\"",
 			"src=\"https://shcaudill.mo.cloudinary.net/images",
 			"<p class=\"mt-3 mb-4 mb-md-0\">",
@@ -488,20 +952,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/index.html",
-					"selected": true,
-					"semi_transient": true,
+					"file": "app/portfolio/index.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15598,
+						"buffer_size": 19638,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1152,
+								1152
 							]
 						],
 						"settings":
@@ -511,10 +974,167 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 188.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/scss/_navbar.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 963,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								410,
+								410
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/scss/_global.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2939,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2008,
+								2008
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 577.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/css/fix.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 38,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								35
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "gulpfile.js",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 765,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								765,
+								765
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/css/custom.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 166099,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97371,
+								97385
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 1.0,
+						"translation.y": 68103.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"stack_multiselect": false,
 					"type": "text"
 				}
@@ -560,7 +1180,7 @@
 	"project": "website.sublime-project",
 	"replace":
 	{
-		"height": 68.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
