@@ -27,6 +27,8 @@ purgecss --css app/css/custom.css --content app/index.html "app/**/*.html" --out
 
 ## Updates
 
+**5/13/22:** 404 and sitemap, ok, really "done" this time...
+
 **5/11/22:** The site is "done"! :tada: Time to go outside now! :wink:
 
 **5/9/22:** Final round of content edits! (for now...)
